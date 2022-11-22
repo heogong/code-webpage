@@ -10,30 +10,30 @@
     <!-- Open Graph protocol -->
     <meta property="og:title" content="CODE - COnnect Digital Exchanges"  />
     <meta property="og:description" content="글로벌 가상자산 사업자의 표준이 되다. CODE, 블록체인 기반의 트래블룰 솔루션"  />
-    <meta property="og:image" content="http://codevasp.com/img/og_image.png" />
+    <meta property="og:image" content="http://codevasp.com/public/images/og_image.png" />
     <meta property="og:url" content="http://codevasp.com" />
     <meta property="og:site_name" content="CODE - COnnect Digital Exchanges" />
     <meta property="og:type" content="website" />
 
     <!-- favicon -->
-    <link rel="shortcut icon" href="img/icon/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="img/icon/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/icon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="img/icon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
-    <link rel="manifest" href="img/icon/manifest.json">
+    <link rel="shortcut icon" href="public/images/icon/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="public/images/icon/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="public/images/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="public/images/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="public/images/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="public/images/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="public/images/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="public/images/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="public/images/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="public/images/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="public/images/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="public/images/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/images/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="public/images/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/images/icon/favicon-16x16.png">
+    <link rel="manifest" href="public/images/icon/manifest.json">
     <meta name="msapplication-TileColor" content="#1b1b1b">
-    <meta name="msapplication-TileImage" content="img/icon/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="public/images/icon/ms-icon-144x144.png">
     <meta name="theme-color" content="#1b1b1b">
 
     <!-- font -->
@@ -58,6 +58,27 @@
         });
       });
 
+      // document.addEventListener('DOMContentLoaded', () => {
+      //   const mobileGNBMenu = document.querySelector('#mobile_gnb_menu')
+      //   const mobileGnbTrigger = document.querySelector('#mobile_gnb_btn')
+      //   const mobileGNBCloser = document.querySelector('.fn_mobile-gnb_menu_close')
+
+      //   mobileGnbTrigger.addEventListener('click', openMobileMenu)
+      //   mobileGNBCloser.addEventListener('click', closeMobileMenu)
+
+      //   function openMobileMenu() {
+      //     const isOpened = mobileGnbTrigger.classList.contains('active')
+
+      //     mobileGnbTrigger.classList.toggle('active', !isOpened)
+      //     mobileGNBMenu.classList.toggle('hidden', isOpened)
+      //   }
+
+      //   function closeMobileMenu() {
+      //     mobileGnbTrigger.classList.remove('active')
+      //     mobileGNBMenu.classList.add('hidden')
+      //   }
+      // })
+      
       // mobile menu
       $(function() {
         $("#mobile_gnb_btn").click(function() {
@@ -77,8 +98,8 @@
     </script>
 
     <!-- FlaxSlider (Index) -->
-    <link rel="stylesheet" type="text/css" href="static/css/flexslider.css">
-    <script type="text/javascript" src="static/js/jquery.flexslider-min.js"></script>
+    <link rel="stylesheet" type="text/css" href="public/vendors/css/flexslider.css">
+    <script type="text/javascript" src="public/vendors/js/jquery.flexslider-min.js"></script>
     <script type="text/javascript" charset="utf-8">
       $(window).load(function() {
         $('.flexslider').flexslider({
@@ -88,7 +109,7 @@
     </script>
 
     <!-- style -->
-    <link href="stylesheets/styles.css" rel="stylesheet" type="text/css">
+    <link href="public/stylesheets/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <span id="skip_top"></span>
@@ -117,7 +138,7 @@
         <li><a href="https://docs.codevasp.com" target="_blank" class="fn_mobile_gnb_menu_close">Technical Document</a></li>
       </ul>
       <div class="mobile_gnb_menu_dimmed_bg fn_mobile_gnb_menu_close"></div>
-    </div> <!-- end of #mobile_gnb_menu -->
+    </div>
 
     <div class="content_wrapper">
       <div class="cover">
@@ -128,7 +149,7 @@
           <h2>COnnect Digital Exchanges</h2>
           <h1>CODE, 글로벌 트래블룰 <span class="mobile_line_break"><br></span>표준을 제시하다</h1>
         </div>
-      </div> <!-- end of .cover -->
+      </div>
 
       <div class="container">
         <div class="content">
@@ -153,24 +174,28 @@
                 </p>              
               </div>
             </div>
-            <br><br>
+
+            <style>
+              .code-section .row {margin-bottom:40px;}
+            </style>
+
             <span class="hidden-xs"><br><br><br></span>
             <h3 class="center">국내 VASP 파트너 및 연구개발 파트너</h3>
             <div class="row">
               <div class="col-xs-12 col-sm-4">
-                <img class="partner_logo" src="img/partner/partner_logo_bithumb.png" alt="Bithumb">
+                <img class="partner_logo" src="public/images/partner/partner_logo_bithumb.png" alt="Bithumb">
               </div>
               <div class="col-xs-12 col-sm-4">
-                <img class="partner_logo" src="img/partner/partner_logo_coinone.png" alt="Coinone">
+                <img class="partner_logo" src="public/images/partner/partner_logo_coinone.png" alt="Coinone">
               </div>
               <div class="col-xs-12 col-sm-4">
-                <img class="partner_logo" src="img/partner/partner_logo_korbit.png" alt="Korbit">
+                <img class="partner_logo" src="public/images/partner/partner_logo_korbit.png" alt="Korbit">
               </div>
             </div>
             <hr class="narrow_bar_gray">
             <div class="row">
               <div class="col-xs-12">
-                <img class="partner_logo" src="img/partner/partner_logo_postech.png" alt="Postech">
+                <img class="partner_logo" src="public/images/partner/partner_logo_postech.png" alt="Postech">
               </div>
             </div>
           </section>
@@ -184,7 +209,7 @@
             <div class="rounded_gray_box">
               <div class="row">
                 <div class="col-xs-12 col-sm-8">
-                  <img class="r3corda_logo" src="img/r3corda/r3corda_logo.png" alt="R3 Corda">
+                  <img class="r3corda_logo" src="public/images/r3corda/r3corda_logo.png" alt="R3 Corda">
                   <ul class="r3corda_list">
                     <li>80여개 글로벌 금융사가 참가하는 R3 블록체인 컨소시엄</li>
                     <li>금융 서비스에 최적화된 분산원장기술 서비스 제공</li>
@@ -192,7 +217,7 @@
                   </ul>
                 </div>
                 <div class="col-xs-12 col-sm-4">
-                  <img class="r3corda_structure" src="img/r3corda/r3corda_structure.png">
+                  <img class="r3corda_structure" src="public/images/r3corda/r3corda_structure.png">
                   <div class="caption center">Corda 노드간 데이터베이스 공유 구조</div>
                 </div>
               </div>
@@ -223,8 +248,8 @@
             <h1 class="heading">CODE Solution</h1>
             <h3>효율적이고 안전한 프라이빗 블록체인 구조</h3>
             <div class="rounded_gray_box code_structure_box">
-              <img class="code_structure hidden-sm hidden-md hidden-lg" src="img/structure/code_structure_mobile.png">
-              <img class="code_structure hidden-xs" src="img/structure/code_structure.png">
+              <img class="code_structure hidden-sm hidden-md hidden-lg" src="public/images/structure/code_structure_mobile.png">
+              <img class="code_structure hidden-xs" src="public/images/structure/code_structure.png">
             </div>
           </section>
 
@@ -237,10 +262,10 @@
             <div id="demo_flexslider" class="flexslider photo">
               <ul class="slides">
                 <li>
-                  <img src="img/demo/demo_withdraw.gif" alt="거래소 출금 화면">
+                  <img src="public/images/demo/demo_withdraw.gif" alt="거래소 출금 화면">
                 </li>
                 <li>
-                  <img src="img/demo/demo_admin.png" alt="거래소 관리자 화면">
+                  <img src="public/images/demo/demo_admin.png" alt="거래소 관리자 화면">
                 </li>
               </ul>
             </div>
