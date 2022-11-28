@@ -1,0 +1,122 @@
+.hero {
+    padding: 180px 0 284px;
+    background: #000;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+.hero-background {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.hero-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto slab';
+    font-size: 46px;
+    color: #fff;
+    position: relative;
+}
+
+.hero-title img {
+    width: 20px;
+    margin: 3px 10px 0;
+}
+
+.hero-description-eng {
+    display: block;
+    margin: 19px 0 64px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+
+    color: #999999;
+    position: relative;
+}
+
+.hero-description {
+    font-size: 22px;
+    line-height: 32x;
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+}
+
+.hero-description b {
+    font-weight: 700;
+}
+
+
+@keyframes fadeup {
+    0% {
+        opacity: 0;
+        transform: translateY(1rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.is-observed .hero-title {
+    animation: fadeup var(--animation-duration) var(--animation-delay-first) linear backwards;
+}
+
+.is-observed .hero-description-eng {
+    animation: fadeup var(--animation-duration) var(--animation-delay-second) linear backwards;
+}
+
+.is-observed .hero-description {
+    animation: fadeup var(--animation-duration) var(--animation-delay-third) linear backwards;
+}
+
+
+@media (max-width: 1000px) {
+    .hero {
+        padding: 144px 0 118px;
+    }
+
+    .hero-background video {
+        height: 100%;
+    }
+
+    .hero-title {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .hero-title img {
+        width: 8px;
+        margin: 2px 4px 0;
+    }
+
+    .hero-description-eng {
+        font-size: 11px;
+        line-height: 16px;
+        margin-bottom: 56px;
+    }
+
+    .hero-description {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .hero a {
+        justify-content: center;
+        text-align: center;
+        margin-top: 24px;
+        font-size: 10px;
+        line-height: 0px;
+
+        text-decoration-line: underline;
+        color: #fff;
+    }
+}

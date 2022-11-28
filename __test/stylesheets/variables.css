@@ -1,0 +1,41 @@
+:root {
+    --color-primary: #11BCC2;
+
+    --layout-width-wide: 1360px;
+
+    --font-family: 'Noto Sans KR', san-serif;
+
+    /* // 너무 많아서 무의미 */
+    /* --font-weight: 300;
+    --font-weight-normal: 500;
+    --font-weight-bold: 700;
+    --font-size: 36px;
+    --font-size: 28px;
+    --font-size: 26px;
+    --font-size: 24px;
+    --font-size: 22px;
+    --font-size: 18px;
+
+    --radius: 15px;
+    --radius-pills: 50%;
+
+    --gray0: #fff;
+    --gray0: #f1f1f1;
+    --gray100: #f9f9f9;
+    --gray200: #f5f5f5;
+    --gray800: #000; */
+
+
+    /* // todo module로 */
+    --animation-duration: .3s;
+    --animation-delay-first: 0s;
+    --animation-delay-second: .4s;
+    --animation-delay-third: .8s;
+    --animation-delay-fourth: 1.2s;
+    --animation-delay-fifth: 1.6s;
+    --animation-delay-sixth: 2.0s;
+
+    /* @media (max-width: var(--layout-width-wide)) {
+        --layout-width-wide: null;
+    } */
+}

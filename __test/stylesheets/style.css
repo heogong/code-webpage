@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200;300;400;500;700;900&family=Roboto+Slab:wght@900&display=swap');
+
+@import 'variables.css';
+
+@import 'reset.css';
+
+@import 'utilities.css';
+
+@import 'hero.css';
+
+@import 'about.css';
+@import 'faq.css';
+@import 'feature.css';
+@import 'partners.css';
+@import 'demo.css';
+@import 'what.css';
+
+@import 'navbar.css';
+@import 'footer.css';
+
+button {
+    font-family: 'Noto Sans KR';
+    cursor: pointer;
+}
+
+
+.section-head {
+    text-align: center;
+}
+
+.section-head .pill {
+    margin: 0 0 24px 0;
+}
+
+.pill {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 180px; */
+    height: 54px;
+    padding: 0 20px;
+    border: 1px solid #777777;
+    border-radius: 50px;
+
+    background: #fff;
+
+    font-family: 'Roboto Slab';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 55px;
+    box-sizing: border-box;
+}
+
+.pill em {
+    color: var(--color-primary);
+    font-style: normal;
+}
+
+
+.workflow-section-wrap {
+    margin: 105px 0 100px;
+}
+
+.workflow-section-wrap .media {
+    max-width: var(--layout-width-wide);
+    height: 800px;
+    margin: 50px auto 0;
+    background: var(--color-primary);
+}
+
+.is-observed .media {
+    animation: fadeup var(--animation-duration) var(--animation-delay-third) linear backwards;
+}
+
+@media (max-width: 1000px) {
+    .pill {
+        height: 31px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .section-head .pill {
+        margin-bottom: 12px;
+    }
+
+    .inner {
+        /* // 24px to */
+        padding-left: 6.66666666667%;
+        padding-right: 6.66666666667%;
+    }
+
+}
+
+.partner-list {
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-shrink: 0;
+    animation: 20s linear 0s infinite normal none running marquee;
+}

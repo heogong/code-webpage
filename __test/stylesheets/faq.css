@@ -1,0 +1,146 @@
+.faq-section-wrap {
+    padding: 120px 0;
+    background: url('../images/faq-background.png') no-repeat left bottom #E0F2F2;
+    background-size: cover;
+    position: relative;
+}
+
+.faq-section-wrap .inner {}
+
+.faq-section-wrap .text-subhead {
+    text-align: center;
+}
+
+.faq-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1400px;
+    margin: 40px auto 0;
+}
+
+.faq-item {
+    width: 436px;
+    height: 362px;
+    margin: 14px;
+    padding: 30px 40px;
+    background: #fff;
+    border-radius: 12px;
+    box-sizing: border-box;
+    position: relative;
+    /* cursor: pointer; */
+}
+
+.faq-item h3 {
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+.faq-item b {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+
+    color: var(--color-primary);
+}
+
+.faq-item b+b {
+    display: none;
+}
+
+
+
+.faq-item p {
+    display: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.faq-item i {
+    font-size: 36px;
+    line-height: 46px;
+    color: #636363;
+    position: absolute;
+    bottom: 36px;
+}
+
+.faq-item:hover {
+    transition: background var(--animation-duration) ease;
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+.faq-item:hover h3 {
+    display: none;
+}
+
+.faq-item:hover b {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.faq-item:hover b {
+    display: none;
+}
+
+.faq-item:hover b+b {
+    display: block;
+}
+
+.faq-item:hover p {
+    display: block;
+}
+
+.faq-item:hover i {
+    display: none;
+}
+
+@media (max-width: 1000px) {
+    .faq-section-wrap {
+        padding: 60px 0;
+    }
+
+    .faq-list {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: left;
+        white-space: nowrap;
+        overflow: auto;
+        padding-left: calc(6.66666666667% - 14px);
+        margin-top: 20px;
+    }
+
+    .faq-item {
+        min-width: 320px;
+        height: 320px;
+        padding: 20px;
+    }
+
+    .faq-item b {
+        font-size: 20px;
+    }
+
+    .faq-item h3 {
+        margin-top: 0;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+
+    .faq-item i {
+        font-size: 24px;
+        bottom: 20px;
+        left: 20px;
+    }
+
+    .faq-item>* {
+        white-space: normal;
+    }
+
+    .faq-list::-webkit-scrollbar {
+        display: none;
+    }
+}

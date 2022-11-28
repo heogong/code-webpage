@@ -1,0 +1,123 @@
+.feature-section-wrap {
+    padding: 120px 0;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: center;
+    margin: 92px 0 0 0;
+}
+
+.feature-item {
+    width: 100%;
+    max-width: 436px;
+    margin: 0 28px;
+    text-align: center;
+}
+
+.feature-item-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 20px;
+}
+
+.feature-item:nth-of-type(1) figure {
+    width: 158.93px;
+}
+
+.feature-item:nth-of-type(2) figure {
+    width: 126.64px;
+}
+
+.feature-item:nth-of-type(3) figure {
+    width: 134.64px;
+}
+
+.feature-item-title {
+    margin: 0 0 12px 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.feature-item-description {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    color: #7A7A7A;
+}
+
+.is-observed .pill {
+    animation: fadeup var(--animation-duration) .4s linear backwards;
+}
+
+.is-observed .text-subhead {
+    animation: fadeup var(--animation-duration) .6s linear backwards;
+}
+
+.is-observed .feature-item:nth-of-type(1) {
+    animation: fadeup var(--animation-duration) 1s linear backwards;
+}
+
+.is-observed .feature-item:nth-of-type(2) {
+    animation: fadeup var(--animation-duration) 1.2s linear backwards;
+}
+
+.is-observed .feature-item:nth-of-type(3) {
+    animation: fadeup var(--animation-duration) 1.4s linear backwards;
+}
+
+@media (max-width: 1000px) {
+    .feature-section-wrap {
+        padding: 60px 0;
+    }
+
+    .feature-list {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .feature-item {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .feature-item-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .feature-item-description {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .feature-item-image {
+        width: 80px;
+        height: 80px;
+    }
+
+    .feature-item:nth-of-type(1) figure {
+        width: 71px;
+    }
+
+    .feature-item:nth-of-type(2) figure {
+        width: 63px;
+    }
+
+    .feature-item:nth-of-type(3) figure {
+        width: 70px;
+    }
+
+
+    .feature-item+.feature-item {
+        margin-top: 50px;
+    }
+}
