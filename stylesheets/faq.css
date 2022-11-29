@@ -14,7 +14,7 @@
 .faq-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
     max-width: 1400px;
     margin: 40px auto 0;
 }

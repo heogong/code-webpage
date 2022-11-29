@@ -54,7 +54,8 @@
 }
 
 .about-section-wrap .brands span img {
-    width: 140px;
+    width: auto;
+    height: 68px;
 }
 
 .about-section-wrap .hashtags {

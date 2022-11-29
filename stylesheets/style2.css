@@ -177,14 +177,19 @@ button {
         color: #000;
     }
 
-    50% {
+    33% {
         background: var(--color-primary);
         color: #fff;
     }
 
-    100% {
+    66% {
         background: #fff;
         color: #000;
+    }
+
+    100% {
+        background: var(--color-primary);
+        color: #fff;
     }
 }
 

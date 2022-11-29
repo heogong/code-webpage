@@ -187,7 +187,7 @@ button {
 .arrow1 .arrow:nth-of-type(1),
 .arrow2 .arrow:nth-of-type(1) {
     position: absolute;
-    top: 110px;
+    top: 115px;
     left: 0;
 }
 
@@ -195,7 +195,7 @@ button {
 .arrow2 .arrow:nth-of-type(2) {
     width: auto;
     position: absolute;
-    top: 120px;
+    top: 125px;
     left: 100%;
     right: 0;
 }
@@ -203,7 +203,7 @@ button {
 .arrow1 .arrow:nth-of-type(3),
 .arrow2 .arrow:nth-of-type(3) {
     position: absolute;
-    top: 160px;
+    top: 162px;
     left: 0;
 }
 
@@ -211,7 +211,7 @@ button {
 .arrow2 .arrow:nth-of-type(4) {
     width: auto;
     position: absolute;
-    top: 170px;
+    top: 172px;
     left: 100%;
     right: 0;
 }
@@ -234,22 +234,30 @@ button {
 
 
 
+
+
 @keyframes blink {
     0% {
         background: #fff;
         color: #000;
     }
 
-    50% {
+    33% {
         background: var(--color-primary);
         color: #fff;
     }
 
-    100% {
+    66% {
         background: #fff;
         color: #000;
     }
+
+    100% {
+        background: var(--color-primary);
+        color: #fff;
+    }
 }
+
 
 
 
@@ -282,7 +290,7 @@ button {
 
 /* // 1열 시작 */
 .is-observed .media .sending .item:nth-of-type(1) {
-    animation: blink var(--animation-duration) 2s linear backwards;
+    animation: blink var(--animation-duration) 2s linear forwards;
 }
 
 
@@ -307,7 +315,7 @@ button {
 }
 
 .is-observed .media .receive .item:nth-of-type(1) {
-    animation: blink var(--animation-duration) 3.2s linear backwards;
+    animation: blink var(--animation-duration) 3.2s linear forwards;
 }
 
 .is-observed .media .arrow2 .arrow:nth-of-type(2) {
@@ -332,7 +340,7 @@ button {
 
 /* // ! 2열 */
 .is-observed .media .sending .item:nth-of-type(2) {
-    animation: blink var(--animation-duration) 4.4s linear backwards;
+    animation: blink var(--animation-duration) 4.4s linear forwards;
 }
 
 .is-observed .media .arrow1 .arrow:nth-of-type(3) {
@@ -355,7 +363,7 @@ button {
 
 
 .is-observed .media .receive .item:nth-of-type(2) {
-    animation: blink var(--animation-duration) 5.6s linear backwards;
+    animation: blink var(--animation-duration) 5.6s linear forwards;
 }
 
 .is-observed .media .arrow2 .arrow:nth-of-type(4) {
@@ -380,13 +388,13 @@ button {
 
 /* // 3열 */
 .is-observed .media .sending .item:nth-of-type(3) {
-    animation: blink var(--animation-duration) 6.8s linear backwards;
+    animation: blink var(--animation-duration) 6.8s linear forwards;
 
 }
 
 /* // 4열 */
 .is-observed .media .sending .item:nth-of-type(4) {
-    animation: blink var(--animation-duration) 7.2s linear backwards;
+    animation: blink var(--animation-duration) 7.2s linear forwards;
 }
 
 .is-observed .media .arrow1 .arrow:nth-of-type(5) {
@@ -408,7 +416,7 @@ button {
 }
 
 .is-observed .media .receive .item:nth-of-type(4) {
-    animation: blink var(--animation-duration) 8.4s linear backwards;
+    animation: blink var(--animation-duration) 8.4s linear forwards;
 }
 
 /* .is-observed .media .arrow2 .arrow:nth-of-type(6) {
