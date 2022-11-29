@@ -76,7 +76,8 @@ button {
 }
 
 .workflow-section-wrap .media>div {
-    min-height: 450px;
+    width: 260px;
+    min-height: 470px;
     padding: 30px 0;
     border-radius: 20px;
     position: relative;
@@ -90,7 +91,8 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 160px;
+    width: 70%;
+    max-width: 180px;
     margin: auto;
     background: #fff;
     border-radius: 50%;
@@ -117,21 +119,15 @@ button {
 }
 
 .workflow-section-wrap .media .sending {
-    width: 260px;
-    height: 400px;
     background: #E9E9E9;
 }
 
 .workflow-section-wrap .media .bridge {
-    width: 260px;
-    height: 400px;
     background: #323333;
     color: #fff;
 }
 
 .workflow-section-wrap .media .receive {
-    width: 260px;
-    height: 400px;
     background: #E9E9E9;
 }
 
@@ -433,6 +429,36 @@ button {
 
 
 @media (max-width: 1000px) {
+
+    .workflow-section-wrap .media {
+        margin-left: -1rem;
+        margin-right: -1rem;
+    }
+
+    .workflow-section-wrap .media>div {
+        min-height: 400px;
+        padding: 30px 0;
+        border-radius: 20px;
+        font-size: 14px;
+        position: relative;
+    }
+
+    .workflow-section-wrap .media>div>header {
+        margin-bottom: 25px;
+    }
+
+    .workflow-section-wrap .media>div {
+        font-size: 14px;
+    }
+
+    .workflow-section-wrap .media>div>figure {}
+
+    .workflow-section-wrap .media .arrow-wrap {
+        width: 50px;
+        /* // todo % */
+    }
+
+
     .pill {
         height: 31px;
         font-size: 16px;

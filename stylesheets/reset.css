@@ -84,3 +84,12 @@ body {
     color: var(--color-text);
     font-size: .875rem;
 }
+
+button {
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+}
