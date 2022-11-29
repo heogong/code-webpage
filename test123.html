@@ -36,40 +36,12 @@
   <link rel="manifest" href="public/images/icon/manifest.json"> -->
 
     <link rel="stylesheet" href="stylesheets/style.css">
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,100,0,0" />
 </head>
 
 <body>
-    <!-- <div class="slider-container">
-    <div id="base_wrapper">
-      <div class="base" id="base">
-        <div class="item">
-          <div class="img img-1">
-            <a href="">0</a>
-          </div>
-        </div>
-        <div class="item">
-          <div class="img img-2">
-            <a href="">1</a>
-          </div>
-        </div>
-        <div class="item">
-          <div class="img img-3">
-            <a href="">2</a>
-          </div>
-        </div>
-        <div class="item">
-          <div class="img img-4">
-            <a href="">3</a>
-          </div>
-        </div>
-        <div class="item">
-          <div class="img img-5">
-            <a href="">4</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
     <nav class="navbar js-navbar" role="navigation">
         <div class="navbar-inner">
             <a class="navbar-logo" href="/">
@@ -79,13 +51,18 @@
             <!-- <button class="navbar-burger js-navbar-toggle" aria-label="전체메뉴" aria-haspopup="true" aria-expanded="false"></button> -->
             <div class="navbar-menu">
                 <a href="#about">WHAT IS CODE?</a>
-                <a href="#demo">DEMO</a>
+                <a href="#alliance">ALLIANCE</a>
                 <a href="#faq">F A Q</a>
-                <a href="#">TECHNICAL DOCUMENT</a>
+                <a href="https://docs.codevasp.com/" target="_blank">
+                    TECHNICAL DOCUMENT
+                    <span class="material-symbols-outlined">
+                        open_in_new
+                    </span>
+                </a>
             </div>
         </div>
     </nav>
-    <div class="navbar-backdrop"></div>
+    <!-- <div class="navbar-backdrop"></div> -->
 
     <main>
         <header class="hero js-observer">
@@ -98,13 +75,18 @@
                     CONNECT DIGITAL EXCHANGES
                     <img src="images/hero-title-arrow-right.png" alt="" />
                 </h1>
-                <p class="hero-description-eng">In December 2021, we will launch a blockchain-based<br />
-                    advanced and innovative travel rule solution service<br />
-                    completed with CODE technology.</p>
-                <p class="hero-description"><b>VASP</b>만을 위한 대한민국 유일
-                    <span class="linebreak-desktop">트레블룰 & 컴플라이언스 전문 솔루션</span>
+                <p class="hero-description-eng">South Korea’s one and only Travel rule<br />& Compliance solution for
+                    VASP
                 </p>
-                <a href="" class="visible-only-mobile">TECHNICAL DOCUMENT</a>
+                <p class="hero-description"><b>VASP</b>만을 위한 대한민국 유일<br />
+                    트레블룰 & 컴플라이언스 전문 솔루션
+                </p>
+                <a href="https://docs.codevasp.com/" target="_blank" class="visible-only-mobile">
+                    <span class="text">TECHNICAL DOCUMENT</span>
+                    <span class="material-symbols-outlined">
+                        open_in_new
+                    </span>
+                </a>
             </div>
         </header>
 
@@ -138,7 +120,7 @@
         <section class="feature-section-wrap js-observer">
             <div class="inner">
                 <header class="section-head">
-                    <div class="pill">code<em>_tr</em></div>
+                    <div class="pill" style="display:inline-flex;">code<em>_tr</em></div>
                     <h2 class="text-subhead">VASP를 위한 전문 트래블룰 서비스</h2>
                 </header>
                 <div class="feature-list">
@@ -155,15 +137,14 @@
                         <h3 class="feature-item-title">보안성</h3>
                         <p class="feature-item-description">개인정보보호법 및 데이터 보호를 위한<span class="linebreak-desktop">법규정을 철저히
                                 준수합니다.
-                                필수적인 정보</span>외의 데이터 수집 및 접근을
-                            요구하지 않습니다.</p>
+                                필수적인 정보 외의</span>데이터 수집 및 접근을 요구하지 않습니다.</p>
                     </div>
                     <div class="feature-item">
                         <figure class="feature-item-image"><img src="images/feature-3.png" alt=""></figure>
                         <!-- <span cl;ass="feature-item-avatar" role="img">💃</span>-->
                         <h3 class="feature-item-title">확장성</h3>
                         <p class="feature-item-description">원활한 커뮤니케이션 지원과 타솔루션 연계 및 <span
-                                class="linebreak-deskptop">VASP간 트래블룰
+                                class="linebreak-desktop">VASP간 트래블룰
                                 연동에 최적화된 환경을</span> 제공합니다.</p>
                     </div>
                 </div>
@@ -171,147 +152,293 @@
         </section>
         <section class="workflow-section-wrap js-observer">
             <div class="inner">
-                <header class="section-head"><span class="pill">code<em>_workflow</em></span>
+                <header class="section-head"><span class="pill"><em>workflow</em></span>
                     <h2 class="text-subhead">CODE 워크플로우</h2>
                 </header>
-                <figure class="media"></figure>
+                <figure class="media">
+                    <div class="sending">
+                        <header>
+                            <h3>송신 VASP</h3>
+                            <small>originating</small>
+                        </header>
+                        <div class="item">출금 정보</div>
+                        <div class="item">출금 요청</div>
+                        <div class="item">출금 실행</div>
+                        <div class="item">결과 전송</div>
+                        <figure>
+                            <img src="images/workflow-db.png" alt="">
+                        </figure>
+                    </div>
+                    <div class="arrow-wrap arrow1">
+                        <div class="arrow"></div>
+                        <div class="arrow"></div>
+                        <div class="arrow"></div>
+                        <div class="arrow"></div>
+                        <div class="arrow"></div>
+                        <!-- <div class="arrow"></div> -->
+                    </div>
+                    <div class="bridge">
+                        <header>
+                            <h3 style="width:50%;margin:0 auto;"><img src="images/workflow-code.png" alt=""></h3>
+                            <small>bridge</small>
+                        </header>
+                        <p>검증 및 정보 전달</p>
+                        <small>Validation and<br />Information Transfer</small>
+                        <figure><img src="images/workflow-api.png" alt=""></figure>
+                    </div>
+                    <div class="arrow-wrap arrow2">
+                        <div class="arrow"></div>
+                        <div class="arrow"></div>
+                        <div class="arrow"></div>
+                        <div class="arrow"></div>
+                        <div class="arrow"></div>
+                        <!-- <div class="arrow"></div> -->
+                    </div>
+                    <div class="receive">
+                        <header>
+                            <h3>수신 VASP</h3>
+                            <small>beneficiary</small>
+                        </header>
+                        <div class="item">정보 확인</div>
+                        <div class="item">출금 허가</div>
+                        <div class="item" style="background:none;"></div>
+                        <div class="item">입금 확인</div>
+                        <figure><img src="images/workflow-db.png" alt=""></figure>
+                    </div>
+                </figure>
             </div>
         </section>
-        <section class="partners-section-wrap js-observer">
+        <section class="partners-section-wrap js-observer" id="alliance">
             <div class="inner">
-                <header class="section-head"><span class="pill">code<em>_partners</em></span>
+                <header class="section-head"><span class="pill"><em>alliance</em></span>
                     <h2 class="text-subhead">VASP 참여기업</h2>
                 </header>
-                <div style="display:flex;">
+                <div class="marquee-wrap">
                     <div class="partner-list-wrap">
                         <div class="partner-list">
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo">
+                                    <img src="images/alliances/1_bithumb_southkorea.png" alt="">
+                                </figure><b class="name">빗썸</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/2_coinone_southkorea.png" alt="">
+                                </figure><b class="name">코인원</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/3_korbit_southkorea.jpg" alt="">
+                                </figure><b class="name">코빗</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/4_qbit_southkorea.jpg" alt=""></figure>
+                                <b class="name">QBIT</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule
+                                    integration</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/5_hanbitco_southkorea.jpeg" alt="">
+                                </figure><b class="name">한빗코</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule
+                                    integration</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/6_KDAC_southkorea.png" alt=""></figure>
+                                <b class="name">한국디지털자산수탁(KDAC)</b><small class="location">South Korea</small><span
+                                    class="status">Travel rule
+                                    integration</span>
+                            </div>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/7_hexlant_southkorea.png" alt="">
+                                </figure><b class="name">헥슬란트</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
+                            </div>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/8_cardo_southkorea.png" alt=""></figure>
+                                <b class="name">카르도</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
+                            </div>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/9_bitfront_us.png" alt=""></figure><b
+                                    class="name">비트프론트</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
                             </div>
                         </div>
                         <div class="partner-list">
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/10_coinncoin_southkorea.png" alt="">
+                                </figure><b class="name">코인엔코인</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/11_(★)koda_southkorea.png" alt="">
+                                </figure><b class="name">한국디지털에셋</b><small class="location">South
+                                    Korea</small><span class="status">Member</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/12_huobi_global.jpeg" alt=""></figure><b
+                                    class="name">Huobi Global</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/13_bingx_ australia.png" alt="">
+                                </figure>
+                                <b class="name">BingX</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/14_payprotocal_southkorea.png" alt="">
+                                </figure>
+                                <b class="name">다날 페이프로토콜</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/15. (★)coinbit_southkorea.png" alt="">
+                                </figure>
+                                <b class="name">코인빗</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
+                            </div>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/16_bitget_singapore.png" alt="">
+                                </figure><b class="name">Bitget</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
+                            </div>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/17_verifyvasp.png" alt="">
+                                </figure><b class="name">Verify VASP</b><small class="location">Singapore</small><span
+                                    class="status">Travel rule integration</span>
+                            </div>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/15. (★)coinbit_southkorea.png" alt="">
+                                </figure>
+                                <b class="name">코인빗</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
                             </div>
                         </div>
                     </div>
+
                     <div class="partner-list-wrap">
-                        <div class="partner-list wkwVO">
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                        <div class="partner-list">
+                            <div class="alliance">
+                                <figure class="logo">
+                                    <img src="images/alliances/1_bithumb_southkorea.png" alt="">
+                                </figure><b class="name">빗썸</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/2_coinone_southkorea.png" alt="">
+                                </figure><b class="name">코인원</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/3_korbit_southkorea.jpg" alt="">
+                                </figure><b class="name">코빗</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/4_qbit_southkorea.jpg" alt=""></figure>
+                                <b class="name">QBIT</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule
+                                    integration</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/5_hanbitco_southkorea.jpeg" alt="">
+                                </figure><b class="name">한빗코</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule
+                                    integration</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/6_KDAC_southkorea.png" alt=""></figure>
+                                <b class="name">한국디지털자산수탁(KDAC)</b><small class="location">South Korea</small><span
+                                    class="status">Travel rule
+                                    integration</span>
+                            </div>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/7_hexlant_southkorea.png" alt="">
+                                </figure><b class="name">헥슬란트</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
+                            </div>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/8_cardo_southkorea.png" alt=""></figure>
+                                <b class="name">카르도</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
+                            </div>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/9_bitfront_us.png" alt=""></figure><b
+                                    class="name">비트프론트</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
                             </div>
                         </div>
-                        <div class="partner-list wkwVO">
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                        <div class="partner-list">
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/10_coinncoin_southkorea.png" alt="">
+                                </figure><b class="name">코인엔코인</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/11_(★)koda_southkorea.png" alt="">
+                                </figure><b class="name">한국디지털에셋</b><small class="location">South
+                                    Korea</small><span class="status">Member</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/12_huobi_global.jpeg" alt=""></figure><b
+                                    class="name">Huobi Global</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/13_bingx_ australia.png" alt="">
+                                </figure>
+                                <b class="name">BingX</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/14_payprotocal_southkorea.png" alt="">
+                                </figure>
+                                <b class="name">다날 페이프로토콜</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
                             </div>
-                            <div class="partner">
-                                <figure class="logo"></figure><b class="name">VASP 기업명</b><small
-                                    class="location">llll</small><span class="status">제휴 완료</span>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/15. (★)coinbit_southkorea.png" alt="">
+                                </figure>
+                                <b class="name">코인빗</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
+                            </div>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/16_bitget_singapore.png" alt="">
+                                </figure><b class="name">Bitget</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
+                            </div>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/17_verifyvasp.png" alt="">
+                                </figure><b class="name">Verify VASP</b><small class="location">Singapore</small><span
+                                    class="status">Travel rule integration</span>
+                            </div>
+                            <div class="alliance">
+                                <figure class="logo"><img src="images/alliances/15. (★)coinbit_southkorea.png" alt="">
+                                </figure>
+                                <b class="name">코인빗</b><small class="location">South
+                                    Korea</small><span class="status">Travel rule integration</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="bottom">
-                    <div class="box">
-                        <h3>CODE 컨소시움구성 VASP</h3>
-                        <div>
-                            <span><img src="images/logo-bithumb.png" alt="bithumb 로고"></span>
-                            <span><img src="images/logo-coinone.png" alt="coinone 로고"></span>
-                            <span><img src="images/logo-korbit.png" alt="korbit 로고"></span>
-                        </div>
-                    </div>
-                    <div class="box">
-                        <h3>CODE 연구개발 및 운영 파트너</h3>
-                        <div>
-                            <span><img src="images/logo-postech.jpg" alt="postech 로고"></span>
-                            <span><img src="images/logo-bithumb-systems.png" alt="bithumb systems 로고"></span>
-                        </div>
+                <div class="partner">
+                    <h3>Partners</h3>
+                    <div>
+                        <span><img src="images/logo-bithumb.png" alt="bithumb 로고"></span>
+                        <span><img src="images/logo-coinone.png" alt="coinone 로고"></span>
+                        <span><img src="images/logo-korbit.png" alt="korbit 로고"></span>
+                        <span><img src="images/logo-postech.jpg" alt="postech 로고"></span>
+                        <span><img src="images/logo-bithumb-systems.png" alt="bithumb systems 로고"></span>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="demo-section-wrap js-observer" id="demo">
+        <!-- <section class="demo-section-wrap js-observer" id="demo">
             <div class="inner">
                 <header class="section-head"><span class="pill">code<em>_demo</em></span>
                     <h2 class="text-subhead">CODE 데모영상</h2>
@@ -320,9 +447,10 @@
                     <video src="videoes/demo.mp4" poster autoplay loop playsinline muted></video>
                 </figure>
                 <p class="helper">DEMO는 예시이며,
-                    실제 거래소 적용시 일부 변경이 있을 수 있습니다.</p>
-        </section>
-        </div>
+                    실제 거래소 적용시 일부 변경이 있을 수 있습니다.
+                </p>
+            </div>
+        </section> -->
         <section class="what-section-wrap js-observer">
             <div class="inner">
                 <header class="section-head" style="text-align:left;">
@@ -331,22 +459,26 @@
                 <div class="what-content">
                     <div class="what-item">
                         <button name="vasp" class="js-tab is-active">
-                            <span>1</span>VASP
-                            <!-- <img class="visible-only-mobile" src="images/icon-chevron-active.svg" alt=""> -->
+                            <span class="number">1</span>VASP
+                            <span class="material-symbols-outlined visible-only-mobile">
+                                expand_more
+                            </span>
                         </button>
                         <div class="is-active js-tab-panel" data-name="vasp">
-                            <p>Virtual Asset Service Provider의 약자로 가상자산을 매개로 한 사업을 영위하는 가상자산 사업자를 의미합니다. </p>
-                            <p>표적으로 가상자산거래소,
-                                가상자산수탁사업자,
-                                지갑사업자 등이 해당됩니다.</p>
+                            <p>Virtual Asset Service Provider의 약자로 가상자산을 매개로 한 사업을 영위하는
+                                가상자산 사업자를 의미합니다. 대표적으로 가상자산거래소, 가상자산수탁사업자, 지갑사업자 등이 해당됩니다.</p>
                         </div>
                     </div>
                     <div class="what-item">
                         <button name="travelrule" class="js-tab">
-                            <span>2</span>트래블룰
-                            <img class="visible-only-mobile" src="images/icon-chevron-active.svg" alt="">
+                            <span class="number">2</span>트래블룰
+                            <span class="material-symbols-outlined visible-only-mobile">
+                                expand_more
+                            </span>
                         </button>
-                        <div class="js-tab-panel" data-name="travelrule">2222222 </div>
+                        <div class="js-tab-panel" data-name="travelrule">자금세탁방지를 위한 법과 규제 준수를 위해 가상자산을 주고 받을 때 송수신자의 정보를
+                            전송하고 확인하는 규칙을 의미합니다.
+                        </div>
                     </div>
                 </div>
                 <!-- <div class="what-tab">
@@ -365,54 +497,58 @@
             </div>
         </section>
         <section class="faq-section-wrap js-observer" id="faq">
-            <h2 class="text-subhead">FAQ</h2>
+            <h2 class="text-subhead">F A Q</h2>
             <section class="faq-list">
-                <div class="faq-item">
+                <!-- <div class="faq-item">
                     <b>Q.</b>
                     <b>A.</b>
-                    <h3>CODE 솔루션의 장점은 무엇인가요?</h3>
-                    <p>CODE는 국내 대표 가상자산거래소 3사(빗썸, 코인원 코빗)가 설립한 대한민국을 대표하는 최초의 트래블룰 컨소시엄입니다. 2021년 8월 출범 이후,
-                        금융당국과 국제자금세탁방지기구(FATF)의 기준에 부합하는 솔루션 서비스를 통해 글로벌 트래블룰 표준을 제시해 오고 있습니다.</p>
+                    <h3>CODE 솔루션에 대해 알고 싶습니다.</h3>
+                    <p>CODE는 국내 대표 가상자산 거래소 3사(빗썸, 코인원, 코빗)가 설립한 대한민국을 대표하는 최초의 트래블룰 컨소시엄입니다. 2021년 8월 출범 이후, 금융당국과
+                        국제자금세탁방지기구(FATF)의 기준에 부합하는 솔루션 서비스를 통해 글로벌 트래블룰 표준을 제시해오고 있습니다.
+                    </p>
                     <i>+</i>
-                </div>
+                </div> -->
                 <div class="faq-item">
                     <b>Q.</b>
                     <b>A.</b>
                     <h3>CODE 솔루션의 장점은 <span class="linebreak-desktop">무엇인가요?</span></h3>
-                    <p>CODE는 국내 대표 가상자산거래소 3사(빗썸, 코인원 코빗)가 설립한 대한민국을 대표하는 최초의 트래블룰 컨소시엄입니다. 2021년 8월 출범 이후,
-                        금융당국과 국제자금세탁방지기구(FATF)의 기준에 부합하는 솔루션 서비스를 통해 글로벌 트래블룰 표준을 제시해 오고 있습니다.</p>
+                    <p>CODE는 컨소시움 3사 (빗썸/코인원/코빗)의 서비스 운영 노하우를 바탕으로 오직 VASP들을 위한 원스탑 맞춤형 서비스를 제공합니다. VASP 사업에 필요한 기술 솔루션과
+                        컨설팅/교육 등 VASP 기업 니즈에 최적화된 서비스를 경험하세요.</p>
                     <i>+</i>
                 </div>
                 <div class="faq-item">
                     <b>Q.</b>
                     <b>A.</b>
                     <h3>CODE 솔루션 기술 특징이 <span class="linebreak-desktop">무엇인지 궁금해요.</span></h3>
-                    <p>CODE는 국내 대표 가상자산거래소 3사(빗썸, 코인원 코빗)가 설립한 대한민국을 대표하는 최초의 트래블룰 컨소시엄입니다. 2021년 8월 출범 이후,
-                        금융당국과 국제자금세탁방지기구(FATF)의 기준에 부합하는 솔루션 서비스를 통해 글로벌 트래블룰 표준을 제시해 오고 있습니다.</p>
+                    <p>CODE 솔루션은 파트너사와의 연동뿐만 아니라 타 솔루션 네트워크 간 연계가 용이한 시스템으로 설계되어 독보적인 확장성을 가지고 있습니다. 또한 VASP 전문 기술사와의
+                        파트너십을 통해 VASP 운영 환경에 최적화된 솔루션 기술력과 보안성을 자랑합니다. </p>
                     <i>+</i>
                 </div>
                 <div class="faq-item">
                     <b>Q.</b>
                     <b>A.</b>
                     <h3>API 문서를 어떻게 확인할 수 <span class="linebreak-desktop">있나요?</span></h3>
-                    <p>CODE는 국내 대표 가상자산거래소 3사(빗썸, 코인원 코빗)가 설립한 대한민국을 대표하는 최초의 트래블룰 컨소시엄입니다. 2021년 8월 출범 이후,
-                        금융당국과 국제자금세탁방지기구(FATF)의 기준에 부합하는 솔루션 서비스를 통해 글로벌 트래블룰 표준을 제시해 오고 있습니다.</p>
+                    <p>API 문서를 확인하시려면 <a href="https://docs.codevasp.com">여기를 클릭</a>해 주세요. CODE는 파트너사들이 쉽게 연동할 수 있도록 다양한
+                        지원 및 지속적인 솔루션 업데이트를 하고 있습니다.</p>
                     <i>+</i>
                 </div>
                 <div class="faq-item">
                     <b>Q.</b>
                     <b>A.</b>
                     <h3>어떤 VASP가 CODE에 참여하나요?</h3>
-                    <p>CODE는 국내 대표 가상자산거래소 3사(빗썸, 코인원 코빗)가 설립한 대한민국을 대표하는 최초의 트래블룰 컨소시엄입니다. 2021년 8월 출범 이후,
-                        금융당국과 국제자금세탁방지기구(FATF)의 기준에 부합하는 솔루션 서비스를 통해 글로벌 트래블룰 표준을 제시해 오고 있습니다.</p>
+                    <p>코드에 합류 된 업체는 메뉴 상단 Alliance에서 확인이 가능합니다. 현재 추가 국.내외 VASP들과의 연동 작업이 진행중에 있으며, CODE 참여 Alliance는
+                        지속적으로 확대될 예정입니다. </p>
                     <i>+</i>
                 </div>
                 <div class="faq-item">
                     <b>Q.</b>
                     <b>A.</b>
                     <h3>CODE에 합류하고 싶어요.</h3>
-                    <p>CODE는 국내 대표 가상자산거래소 3사(빗썸, 코인원 코빗)가 설립한 대한민국을 대표하는 최초의 트래블룰 컨소시엄입니다. 2021년 8월 출범 이후,
-                        금융당국과 국제자금세탁방지기구(FATF)의 기준에 부합하는 솔루션 서비스를 통해 글로벌 트래블룰 표준을 제시해 오고 있습니다.</p>
+                    <p>
+                        CODE 합류 관련 문의는 아래 메일로 연락 부탁드립니다.
+                        <br /><br />
+                        가입 문의: partnership@codevasp.com
+                    </p>
                     <i>+</i>
                 </div>
             </section>
@@ -421,11 +557,30 @@
     <footer class="footer" role="contentinfo">
         <div class="inner">
             <figure class="footer-logo"><img src="images/logo-code-grayscale.png" alt="code 로고"></figure>
-            <p class="footer-text">CODE에 대한 문의는 아래 이메일로 연락주세요.</p><span>가입 문의</span><span>기술 지원 문의</span><span>컨설팅 교육
-                문의</span><small class="footer-copyright">© CODE Inc. Copyright and all rights reserved.</small>
+            <p class="footer-text">CODE에 대한 문의는 아래 이메일로 연락주세요.</p>
+            <div class="contact-list">
+                <span class="contact-item">
+                    가입 문의
+                    <b>partnership@codevasp.com</b>
+                    <!-- <span class="material-symbols-outlined">mail</span> -->
+                </span>
+                <span class="contact-item">
+                    기술 지원 문의
+                    <b>support@codevasp.com</b>
+                    <!-- <span class="material-symbols-outlined">mail</span> -->
+                </span>
+                <!-- <span class="contact-item">
+                    컨설팅 교육 문의
+                    <span class="material-symbols-outlined">
+                        mail
+                    </span>
+                </span> -->
+            </div>
+            <small class="footer-copyright">© CODE Co.,Ltd. Copyright and all rights reserved.</small>
         </div>
     </footer>
-    <script>document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventis - passed - heroault();
 
@@ -441,7 +596,9 @@
 
         function test() {
             const hero = document.querySelector('.hero')
-            const isScrolledOnce = window.scrollY > 1
+
+            // ! 130 :: 새로고침 시, scrollY가 121.5...
+            const isScrolledOnce = window.scrollY > 122
             const isPassedHero = window.scrollY > hero.clientHeight
 
             if (isScrolledOnce && !isPassedHero) {

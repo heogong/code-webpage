@@ -1,5 +1,6 @@
 .hero {
-    padding: 180px 0 284px;
+    margin-top: -80px;
+    padding: 200px 0 200px;
     background: #000;
     overflow: hidden;
     text-align: center;
@@ -8,10 +9,14 @@
 
 .hero-background {
     position: absolute;
-    left: 0;
-    right: 0;
+    left: 50%;
     top: 0;
     bottom: 0;
+    transform: translateX(-50%);
+}
+
+.hero-background video {
+    width: auto;
 }
 
 .hero-title {
@@ -57,7 +62,7 @@
 @keyframes fadeup {
     0% {
         opacity: 0;
-        transform: translateY(1rem);
+        transform: translateY(1.5rem);
     }
 
     100% {
@@ -78,24 +83,30 @@
     animation: fadeup var(--animation-duration) var(--animation-delay-third) linear backwards;
 }
 
+.is-observed.hero a {
+    animation: fadeup var(--animation-duration) var(--animation-delay-fourth) linear backwards;
+}
+
 
 @media (max-width: 1000px) {
     .hero {
-        padding: 144px 0 118px;
+        padding: 140px 0 100px;
     }
 
     .hero-background video {
-        height: 100%;
+        width: 1200px;
     }
 
     .hero-title {
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 36px;
+        line-height: 37px;
+        letter-spacing: 1px;
     }
 
     .hero-title img {
-        width: 8px;
-        margin: 2px 4px 0;
+        display: none;
+        /* width: 8px;
+        margin: 2px 4px 0; */
     }
 
     .hero-description-eng {
@@ -110,13 +121,22 @@
     }
 
     .hero a {
+        align-items: center;
         justify-content: center;
-        text-align: center;
         margin-top: 24px;
         font-size: 10px;
         line-height: 0px;
 
-        text-decoration-line: underline;
         color: #fff;
+        position: relative;
+    }
+
+    .hero a .text {
+        text-decoration: underline;
+    }
+
+    .hero a .material-symbols-outlined {
+        margin-left: .25rem;
+        font-size: 14px;
     }
 }

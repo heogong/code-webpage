@@ -75,7 +75,7 @@
 
 @media (max-width: 1000px) {
     .feature-section-wrap {
-        padding: 60px 0;
+        padding: 60px 0 0;
     }
 
     .feature-list {

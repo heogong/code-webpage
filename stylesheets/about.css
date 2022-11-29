@@ -6,7 +6,7 @@
 }
 
 .about-section-wrap .inner {
-    max-width: 1000px;
+    max-width: 1360px;
     margin: 0 auto;
 }
 
@@ -58,11 +58,11 @@
 }
 
 .about-section-wrap .hashtags {
-    display: flex;
     margin: 24px 0 0 0;
 }
 
 .about-section-wrap .hashtags span {
+    display: inline-block;
     margin-right: 50px;
     font-weight: 700;
     font-size: 16px;
@@ -75,7 +75,7 @@
 .is-observed .about-line {
     transition: all var(--animation-duration) ease;
     width: auto;
-    right: calc(50% + 510px);
+    right: calc(50% + 695px);
 }
 
 .is-observed .about-title {
@@ -106,7 +106,7 @@
 @media (max-width: 1000px) {
     .about-section-wrap {
         padding-top: 28px;
-        padding-bottom: 34px;
+        padding-bottom: 36px;
     }
 
 
@@ -127,9 +127,15 @@
         line-height: 20px;
     }
 
+    .about-section-wrap .brands {
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+
     .about-section-wrap .brands span {
-        width: 27.77777777778%;
+        width: 32%;
         height: 30px;
+        margin-right: 0;
     }
 
     .about-section-wrap .brands span img {

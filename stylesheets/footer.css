@@ -1,7 +1,7 @@
 .footer {
     padding: 41px 0 40px;
     background: #181818;
-    color: #5C5C5C;
+    color: #777;
     position: relative;
 }
 
@@ -9,6 +9,7 @@
 .footer .inner {
     max-width: var(--layout-width-wide);
     margin: 0 auto;
+    padding: 0 var(--grid-margin);
 }
 
 .footer-logo {
@@ -18,7 +19,7 @@
 
 
 .footer-text {
-    margin-bottom: 4px;
+    margin-bottom: .5rem;
     font-weight: 700;
     font-size: 16px;
     line-height: 23px;
@@ -31,4 +32,22 @@
     font-size: 12px;
     line-height: 17px;
     letter-spacing: -0.025em;
+}
+
+.contact-list {
+    /* display: flex; */
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin: .25rem 0;
+}
+
+.contact-item b {
+    margin: 0 0 0 .25rem;
+}
+
+.contact-item span {
+    margin-left: .25rem;
 }

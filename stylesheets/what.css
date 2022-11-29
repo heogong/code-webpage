@@ -9,7 +9,7 @@
 }
 
 .what-content {
-    margin: 30px 0 0 0;
+    margin: 50px 0 0 0;
     position: relative;
 }
 
@@ -36,6 +36,12 @@
     z-index: 1;
 }
 
+.what-item button>* {
+    pointer-events: none;
+}
+
+
+
 .what-item:nth-of-type(1) button {
     top: 28px;
 }
@@ -45,27 +51,26 @@
     top: calc(130px + 28px);
 }
 
+.what-item button .number {
+    margin-right: 10px;
+    font-size: 80px;
+    font-weight: 100;
+}
+
+
+
+
 .what-item button.is-active {
     transition: background var(--animation-duration) linear;
     background: var(--color-primary);
     color: #fff;
 }
 
-.what-item button span {
-    margin-right: 10px;
-    font-size: 80px;
-    font-weight: 100;
+.what-item button.is-active .material-symbols-outlined {
+    transform: rotate(180deg)
 }
 
-.what-item button img {
-    width: 16px;
-    margin-left: auto;
-}
 
-.what-item button img path {
-    fill: red;
-
-}
 
 .what-item div {
     display: none;
@@ -109,9 +114,15 @@
         left: auto;
     }
 
-    .what-item button span {
+    .what-item button .number {
         font-size: inherit;
     }
+
+    .what-item button .material-symbols-outlined {
+        font-size: 40px;
+        margin-left: auto;
+    }
+
 
     .what-item:nth-of-type(1) button {
         top: auto;
