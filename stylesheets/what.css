@@ -1,19 +1,16 @@
-.what-section-wrap {
+.what-container {
   max-width: var(--layout-width-wide);
   margin: 0 auto;
   padding: 100px 0 120px;
 }
 
-.what-section-wrap .text-subhead {
+.what-container .text-subhead {
   text-align: center;
 }
 
 .what-content {
   margin: 50px 0 0 0;
   position: relative;
-}
-
-.what-item {
 }
 
 .what-item button {
@@ -90,7 +87,7 @@
 }
 
 @media (max-width: 1000px) {
-  .what-section-wrap {
+  .what-container {
     padding: 60px 0;
   }
 

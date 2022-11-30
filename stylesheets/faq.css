@@ -1,4 +1,4 @@
-.faq-section-wrap {
+.faq-container {
   padding: 120px 0;
   background: url("../images/faq-background.png") no-repeat center bottom
     #e0f2f2;
@@ -7,10 +7,10 @@
   position: relative;
 }
 
-.faq-section-wrap .inner {
+.faq-container .inner {
 }
 
-.faq-section-wrap .text-subhead {
+.faq-container .text-subhead {
   text-align: center;
 }
 
@@ -111,7 +111,7 @@
 }
 
 @media (max-width: 1000px) {
-  .faq-section-wrap {
+  .faq-container {
     padding: 60px 0;
   }
 

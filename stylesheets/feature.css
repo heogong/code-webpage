@@ -1,4 +1,4 @@
-.feature-section-wrap {
+.feature-container {
   padding: 120px 0;
 }
 
@@ -80,7 +80,7 @@
 }
 
 @media (max-width: 1000px) {
-  .feature-section-wrap {
+  .feature-container {
     padding: 60px 0 0;
   }
 
