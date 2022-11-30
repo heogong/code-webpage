@@ -1,4 +1,6 @@
 .feature-container {
+  max-width: var(--layout-width-wide);
+  margin: 0 auto;
   padding: 120px 0;
 }
 

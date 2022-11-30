@@ -4,10 +4,6 @@
   padding: 100px 0 120px;
 }
 
-.what-container .text-subhead {
-  text-align: center;
-}
-
 .what-content {
   margin: 50px 0 0 0;
   position: relative;
@@ -86,9 +82,18 @@
   display: block;
 }
 
+.is-observed .what-content {
+  animation: fadeup var(--animation-duration) var(--animation-delay-third)
+    linear backwards;
+}
+
 @media (max-width: 1000px) {
   .what-container {
     padding: 60px 0;
+  }
+
+  .what-container .text-subhead {
+    text-align: center;
   }
 
   .what-item button {

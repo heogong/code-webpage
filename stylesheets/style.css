@@ -11,7 +11,8 @@
 @import "about.css";
 @import "faq.css";
 @import "feature.css";
-@import "partners.css";
+@import "alliance.css";
+@import "partner.css";
 @import "demo.css";
 @import "what.css";
 
@@ -19,11 +20,6 @@
 
 @import "navbar.css";
 @import "footer.css";
-
-button {
-  font-family: "Noto Sans KR";
-  cursor: pointer;
-}
 
 .section-head {
   text-align: center;
@@ -57,23 +53,22 @@ button {
   font-style: normal;
 }
 
-.inner {
-  padding-left: var(--grid-margin);
-  padding-right: var(--grid-margin);
-  /* // todo 중복되는. */
+/* // width-wide  */
+@media (max-width: 1360px) {
+  .about-container .inner,
+  .what-container .inner,
+  .partner-container .inner {
+    padding-left: var(--grid-margin);
+    padding-right: var(--grid-margin);
+  }
 }
-
-/* .is-observed .media .arrow2 .arrow:nth-of-type(6) {
-    transition: left .4s 8.8s linear;
-    left: 0;
-}
-
-.is-observed .media .arrow1 .arrow:nth-of-type(6) {
-    transition: left .4s 9.2s linear;
-    left: 0;
-} */
 
 @media (max-width: 1000px) {
+  .inner {
+    padding-left: var(--grid-margin);
+    padding-right: var(--grid-margin);
+  }
+
   .pill {
     height: 31px;
     font-size: 16px;
