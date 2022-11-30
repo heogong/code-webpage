@@ -502,12 +502,6 @@ button {
     margin-bottom: 12px;
   }
 
-  .inner {
-    /* // 24px to */
-    padding-left: var(--grid-margin);
-    padding-right: var(--grid-margin);
-  }
-
   .workflow-section-wrap {
     margin-bottom: 20px;
   }

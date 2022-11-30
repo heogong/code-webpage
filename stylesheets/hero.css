@@ -20,9 +20,6 @@
 }
 
 .hero-title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-family: "Roboto slab";
   font-size: 46px;
   color: #fff;
@@ -30,8 +27,9 @@
 }
 
 .hero-title img {
+  display: inline-block;
   width: 20px;
-  margin: 3px 10px 0;
+  margin: 3px 5px 0;
 }
 
 .hero-description-eng {
