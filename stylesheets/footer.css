@@ -1,10 +1,16 @@
 .footer {
     padding: 41px 0 40px;
     background: #181818;
-    color: #777;
+    color: #999;
     position: relative;
 }
 
+.footer-address {
+    display: block;
+    margin-bottom: 1rem;
+    color: inherit;
+
+}
 
 .footer .inner {
     max-width: var(--layout-width-wide);

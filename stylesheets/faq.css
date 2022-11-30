@@ -1,7 +1,8 @@
 .faq-section-wrap {
     padding: 120px 0;
-    background: url('../images/faq-background.png') no-repeat left bottom #E0F2F2;
+    background: url('../images/faq-background.png') no-repeat center bottom #E0F2F2;
     background-size: cover;
+    overflow: hidden;
     position: relative;
 }
 
@@ -104,6 +105,10 @@
     display: none;
 }
 
+.is-observed .faq-list {
+    animation: fadeup var(--animation-duration) var(--animation-delay-third) linear backwards;
+}
+
 @media (max-width: 1000px) {
     .faq-section-wrap {
         padding: 60px 0;
@@ -116,6 +121,7 @@
         white-space: nowrap;
         overflow: auto;
         padding-left: calc(var(--grid-margin) - 8px);
+        padding-right: var(--grid-margin);
         margin: -8px;
         margin-top: 20px;
     }
