@@ -62,6 +62,9 @@
 }
 
 .alliance .name {
+    display: flex;
+    align-items: center;
+    height: 50px;
     font-weight: 700;
     font-size: 16px;
     line-height: 23px;
@@ -71,7 +74,7 @@
 }
 
 .alliance .location {
-    display: block;
+    display: none;
     font-weight: 700;
     font-size: 12px;
     line-height: 17px;

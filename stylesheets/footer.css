@@ -7,7 +7,6 @@
 
 .footer-address {
     display: block;
-    margin-bottom: 1rem;
     color: inherit;
 
 }
@@ -34,7 +33,6 @@
 
 .footer-copyright {
     display: block;
-    margin-top: 23px;
     font-size: 12px;
     line-height: 17px;
     letter-spacing: -0.025em;
@@ -56,4 +54,20 @@
 
 .contact-item span {
     margin-left: .25rem;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+@media (max-width: 800px) {
+    .footer-bottom {
+        display: block;
+    }
+
+    .footer-copyright {
+        margin-top: 1rem;
+    }
 }
