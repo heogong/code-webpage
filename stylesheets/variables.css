@@ -1,14 +1,14 @@
 :root {
-    --color-primary: #11BCC2;
+  --color-primary: #11bcc2;
 
-    --layout-width-wide: 1360px;
+  --layout-width-wide: 1360px;
 
-    --grid-margin: 6.66666666667%;
+  --grid-margin: 6.66666666667%;
 
-    --font-family: 'Noto Sans KR', san-serif;
+  --font-family: "Noto Sans KR", san-serif;
 
-    /* // 너무 많아서 무의미 */
-    /* --font-weight: 300;
+  /* // 너무 많아서 무의미 */
+  /* --font-weight: 300;
     --font-weight-normal: 500;
     --font-weight-bold: 700;
     --font-size: 36px;
@@ -27,17 +27,16 @@
     --gray200: #f5f5f5;
     --gray800: #000; */
 
+  /* // todo module로 */
+  --animation-duration: 0.3s;
+  --animation-delay-first: 0s;
+  --animation-delay-second: 0.4s;
+  --animation-delay-third: 0.8s;
+  --animation-delay-fourth: 1.2s;
+  --animation-delay-fifth: 1.6s;
+  --animation-delay-sixth: 2s;
 
-    /* // todo module로 */
-    --animation-duration: .3s;
-    --animation-delay-first: 0s;
-    --animation-delay-second: .4s;
-    --animation-delay-third: .8s;
-    --animation-delay-fourth: 1.2s;
-    --animation-delay-fifth: 1.6s;
-    --animation-delay-sixth: 2.0s;
-
-    /* @media (max-width: var(--layout-width-wide)) {
+  /* @media (max-width: var(--layout-width-wide)) {
         --layout-width-wide: null;
     } */
 }

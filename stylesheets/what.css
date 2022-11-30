@@ -1,143 +1,134 @@
 .what-section-wrap {
-    max-width: var(--layout-width-wide);
-    margin: 0 auto;
-    padding: 100px 0 120px;
+  max-width: var(--layout-width-wide);
+  margin: 0 auto;
+  padding: 100px 0 120px;
 }
 
 .what-section-wrap .text-subhead {
-    text-align: center;
+  text-align: center;
 }
 
 .what-content {
-    margin: 50px 0 0 0;
-    position: relative;
+  margin: 50px 0 0 0;
+  position: relative;
 }
 
-.what-item {}
+.what-item {
+}
 
 .what-item button {
-    display: flex;
-    align-items: center;
-    width: 31.96480938416%;
-    max-width: 436px;
-    height: 130px;
-    padding-left: 40px;
-    /* // todo reset button */
-    border: 0;
-    background: transparent;
-    text-align: left;
-    font-weight: 300;
-    font-size: 36px;
-    line-height: 45px;
-    /* identical to box height */
-    letter-spacing: -0.025em;
-    position: absolute;
-    left: 0;
-    z-index: 1;
+  display: flex;
+  align-items: center;
+  width: 31.96480938416%;
+  max-width: 436px;
+  height: 130px;
+  padding-left: 40px;
+  /* // todo reset button */
+  border: 0;
+  background: transparent;
+  text-align: left;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 45px;
+  /* identical to box height */
+  letter-spacing: -0.025em;
+  position: absolute;
+  left: 0;
+  z-index: 1;
 }
 
-.what-item button>* {
-    pointer-events: none;
+.what-item button > * {
+  pointer-events: none;
 }
-
-
 
 .what-item:nth-of-type(1) button {
-    top: 28px;
+  top: 28px;
 }
 
 .what-item:nth-of-type(2) button {
-    left: 0;
-    top: calc(130px + 28px);
+  left: 0;
+  top: calc(130px + 28px);
 }
 
 .what-item button .number {
-    margin-right: 10px;
-    font-size: 80px;
-    font-weight: 100;
+  margin-right: 10px;
+  font-size: 80px;
+  font-weight: 100;
 }
 
-
-
-
 .what-item button.is-active {
-    transition: background var(--animation-duration) linear;
-    background: var(--color-primary);
-    color: #fff;
+  transition: background var(--animation-duration) linear;
+  background: var(--color-primary);
+  color: #fff;
 }
 
 .what-item button.is-active .material-symbols-outlined {
-    transform: rotate(180deg)
+  transform: rotate(180deg);
 }
-
-
 
 .what-item div {
-    display: none;
-    width: 74.48680351906%;
-    max-width: 1016px;
-    min-height: 310px;
-    margin-left: auto;
-    padding: 95px 70px 95px 200px;
-    box-sizing: border-box;
-    background: #F7F7F7;
-    font-size: 24px;
-    line-height: 30px;
-    letter-spacing: -0.025em;
+  display: none;
+  width: 74.48680351906%;
+  max-width: 1016px;
+  min-height: 310px;
+  margin-left: auto;
+  padding: 95px 70px 95px 200px;
+  box-sizing: border-box;
+  background: #f7f7f7;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.025em;
 }
 
-
-.what-item div p+p {
-    margin: 20px 0 0 0;
+.what-item div p + p {
+  margin: 20px 0 0 0;
 }
 
 .what-item div.is-active {
-    /* transition: all var(--animation-duration) linear; */
-    display: block;
+  /* transition: all var(--animation-duration) linear; */
+  display: block;
 }
 
-
 @media (max-width: 1000px) {
-    .what-section-wrap {
-        padding: 60px 0;
-    }
+  .what-section-wrap {
+    padding: 60px 0;
+  }
 
-    .what-item button {
-        width: 100%;
-        max-width: 100%;
-        height: auto;
-        padding: 15px 20px;
-        background: rgba(17, 188, 194, 0.1);
-        font-size: 20px;
-        line-height: 29px;
-        position: relative;
-        left: auto;
-    }
+  .what-item button {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 15px 20px;
+    background: rgba(17, 188, 194, 0.1);
+    font-size: 20px;
+    line-height: 29px;
+    position: relative;
+    left: auto;
+  }
 
-    .what-item button .number {
-        font-size: inherit;
-    }
+  .what-item button .number {
+    font-size: inherit;
+  }
 
-    .what-item button .material-symbols-outlined {
-        font-size: 40px;
-        margin-left: auto;
-    }
+  .what-item button .material-symbols-outlined {
+    font-size: 40px;
+    margin-left: auto;
+  }
 
+  .what-item:nth-of-type(1) button {
+    top: auto;
+  }
 
-    .what-item:nth-of-type(1) button {
-        top: auto;
-    }
+  .what-item:nth-of-type(2) button {
+    top: auto;
+  }
 
-    .what-item:nth-of-type(2) button {
-        top: auto;
-    }
-
-    .what-item div {
-        width: 100%;
-        min-height: auto;
-        padding: 20px 20px 24px;
-        background: none;
-        font-size: 12px;
-        line-height: 18px;
-    }
+  .what-item div {
+    width: 100%;
+    min-height: auto;
+    padding: 20px 20px 24px;
+    background: none;
+    font-size: 12px;
+    line-height: 18px;
+  }
 }

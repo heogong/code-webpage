@@ -1,143 +1,145 @@
 .hero {
-    margin-top: -80px;
-    padding: 200px 0 200px;
-    background: #000;
-    overflow: hidden;
-    text-align: center;
-    position: relative;
+  margin-top: -80px;
+  padding: 200px 0 200px;
+  background: #000;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
 }
 
 .hero-background {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    bottom: 0;
-    transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  transform: translateX(-50%);
 }
 
 .hero-background video {
-    width: auto;
+  width: auto;
 }
 
 .hero-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Roboto slab';
-    font-size: 46px;
-    color: #fff;
-    position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto slab";
+  font-size: 46px;
+  color: #fff;
+  position: relative;
 }
 
 .hero-title img {
-    width: 20px;
-    margin: 3px 10px 0;
+  width: 20px;
+  margin: 3px 10px 0;
 }
 
 .hero-description-eng {
-    display: block;
-    margin: 19px 0 64px;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
+  display: block;
+  margin: 19px 0 64px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
 
-    color: #999999;
-    position: relative;
+  color: #999999;
+  position: relative;
 }
 
 .hero-description {
-    font-size: 22px;
-    line-height: 32x;
-    font-weight: 400;
-    color: #fff;
-    position: relative;
+  font-size: 22px;
+  line-height: 32x;
+  font-weight: 400;
+  color: #fff;
+  position: relative;
 }
 
 .hero-description b {
-    font-weight: 700;
+  font-weight: 700;
 }
 
-
 @keyframes fadeup {
-    0% {
-        opacity: 0;
-        transform: translateY(1.5rem);
-    }
+  0% {
+    opacity: 0;
+    transform: translateY(1.5rem);
+  }
 
-    100% {
-        opacity: 1;
-        transform: translateY(0px);
-    }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 .is-observed .hero-title {
-    animation: fadeup var(--animation-duration) var(--animation-delay-first) linear backwards;
+  animation: fadeup var(--animation-duration) var(--animation-delay-first)
+    linear backwards;
 }
 
 .is-observed .hero-description-eng {
-    animation: fadeup var(--animation-duration) var(--animation-delay-second) linear backwards;
+  animation: fadeup var(--animation-duration) var(--animation-delay-second)
+    linear backwards;
 }
 
 .is-observed .hero-description {
-    animation: fadeup var(--animation-duration) var(--animation-delay-third) linear backwards;
+  animation: fadeup var(--animation-duration) var(--animation-delay-third)
+    linear backwards;
 }
 
 .is-observed.hero a {
-    animation: fadeup var(--animation-duration) var(--animation-delay-fourth) linear backwards;
+  animation: fadeup var(--animation-duration) var(--animation-delay-fourth)
+    linear backwards;
 }
 
-
 @media (max-width: 1000px) {
-    .hero {
-        padding: 140px 0 100px;
-    }
+  .hero {
+    padding: 140px 0 100px;
+  }
 
-    .hero-background video {
-        width: 1200px;
-    }
+  .hero-background video {
+    width: 1200px;
+  }
 
-    .hero-title {
-        display: block;
-        font-size: 36px;
-        line-height: 37px;
-        letter-spacing: 1px;
-    }
+  .hero-title {
+    display: block;
+    font-size: 36px;
+    line-height: 37px;
+    letter-spacing: 1px;
+  }
 
-    .hero-title img {
-        display: none;
-        /* width: 8px;
+  .hero-title img {
+    display: none;
+    /* width: 8px;
         margin: 2px 4px 0; */
-    }
+  }
 
-    .hero-description-eng {
-        font-size: 11px;
-        line-height: 16px;
-        margin-bottom: 56px;
-    }
+  .hero-description-eng {
+    font-size: 11px;
+    line-height: 16px;
+    margin-bottom: 56px;
+  }
 
-    .hero-description {
-        font-size: 14px;
-        line-height: 21px;
-    }
+  .hero-description {
+    font-size: 14px;
+    line-height: 21px;
+  }
 
-    .hero a {
-        align-items: center;
-        justify-content: center;
-        margin-top: 24px;
-        font-size: 10px;
-        line-height: 0px;
+  .hero a {
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    font-size: 10px;
+    line-height: 0px;
 
-        color: #fff;
-        position: relative;
-    }
+    color: #fff;
+    position: relative;
+  }
 
-    .hero a .text {
-        text-decoration: underline;
-    }
+  .hero a .text {
+    text-decoration: underline;
+  }
 
-    .hero a .material-symbols-outlined {
-        margin-left: .25rem;
-        font-size: 14px;
-    }
+  .hero a .material-symbols-outlined {
+    margin-left: 0.25rem;
+    font-size: 14px;
+  }
 }

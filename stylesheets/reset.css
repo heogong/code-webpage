@@ -10,8 +10,8 @@ h4,
 h5,
 h6,
 p,
-input[type=radio] {
-    margin: 0;
+input[type="radio"] {
+  margin: 0;
 }
 
 ul,
@@ -19,34 +19,34 @@ ol,
 menu,
 fieldset,
 legend {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 fieldset,
 iframe,
 img,
 hr {
-    border: none
+  border: none;
 }
 
 main,
 picture {
-    display: block;
+  display: block;
 }
 
 iframe,
 img,
 video {
-    width: 100%;
-    display: block;
+  width: 100%;
+  display: block;
 }
 
 strong,
 b,
 th,
 legend {
-    font-weight: var(--font-weight-bold);
+  font-weight: var(--font-weight-bold);
 }
 
 cite,
@@ -54,42 +54,42 @@ i,
 address,
 em,
 dfn {
-    font-style: normal;
+  font-style: normal;
 }
 
 em {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 a {
-    text-decoration: none;
-    text-decoration-skip-ink: auto;
-    /* color: var(--color-primary); */
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+  /* color: var(--color-primary); */
 }
 
 html {
-    min-width: 320px;
-    height: 100%;
-    overflow-x: hidden;
-    font: 16px/(var(--font-line-height)) var(--font-family);
-    font-family: 'Noto Sans KR';
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    overscroll-behavior: contain;
+  min-width: 320px;
+  height: 100%;
+  overflow-x: hidden;
+  font: 16px/ (var(--font-line-height)) var(--font-family);
+  font-family: "Noto Sans KR";
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overscroll-behavior: contain;
 }
 
 body {
-    background: var(--color-background);
-    color: var(--color-text);
-    font-size: .875rem;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-size: 0.875rem;
 }
 
 button {
-    padding: 0;
-    border: none;
-    background: none;
-    font: inherit;
-    color: inherit;
-    cursor: pointer;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
 }

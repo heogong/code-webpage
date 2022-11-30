@@ -1,158 +1,160 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200;300;400;500;700;900&family=Roboto+Slab:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@200;300;400;500;700;900&family=Roboto+Slab:wght@900&display=swap");
 
-@import 'variables.css';
+@import "variables.css";
 
-@import 'reset.css';
+@import "reset.css";
 
-@import 'utilities.css';
+@import "utilities.css";
 
-@import 'hero.css';
+@import "hero.css";
 
-@import 'about.css';
-@import 'faq.css';
-@import 'feature.css';
-@import 'partners.css';
-@import 'demo.css';
-@import 'what.css';
+@import "about.css";
+@import "faq.css";
+@import "feature.css";
+@import "partners.css";
+@import "demo.css";
+@import "what.css";
 
-@import 'navbar.css';
-@import 'footer.css';
+@import "navbar.css";
+@import "footer.css";
 
 button {
-    font-family: 'Noto Sans KR';
-    cursor: pointer;
+  font-family: "Noto Sans KR";
+  cursor: pointer;
 }
 
-
 .section-head {
-    text-align: center;
+  text-align: center;
 }
 
 .section-head .pill {
-    margin: 0 0 24px 0;
+  margin: 0 0 24px 0;
 }
 
 .pill {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    /* width: 180px; */
-    height: 54px;
-    padding: 0 20px;
-    border: 1px solid #777777;
-    border-radius: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 180px; */
+  height: 54px;
+  padding: 0 20px;
+  border: 1px solid #777777;
+  border-radius: 50px;
 
-    background: #fff;
+  background: #fff;
 
-    font-family: 'Roboto Slab';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 55px;
-    box-sizing: border-box;
+  font-family: "Roboto Slab";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 55px;
+  box-sizing: border-box;
 }
 
 .pill em {
-    color: var(--color-primary);
-    font-style: normal;
+  color: var(--color-primary);
+  font-style: normal;
 }
 
 .inner {
-
-    padding-left: var(--grid-margin);
-    padding-right: var(--grid-margin);
-    /* // todo 중복되는. */
+  padding-left: var(--grid-margin);
+  padding-right: var(--grid-margin);
+  /* // todo 중복되는. */
 }
 
 .workflow-section-wrap {
-    margin: 105px 0 100px;
+  margin: 105px 0 100px;
 }
 
 .workflow-section-wrap .media {
-    display: flex;
-    justify-content: center;
-    max-width: var(--layout-width-wide);
-    margin: 50px auto 0;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  max-width: var(--layout-width-wide);
+  margin: 50px auto 0;
+  text-align: center;
 }
 
-.workflow-section-wrap .media>div {
-    width: 260px;
-    min-height: 470px;
-    padding: 30px 0;
-    border-radius: 20px;
-    position: relative;
+.workflow-section-wrap .media > div {
+  width: 260px;
+  min-height: 470px;
+  padding: 30px 0;
+  border-radius: 20px;
+  position: relative;
 }
 
-.workflow-section-wrap .media>div>header {
-    margin-bottom: 25px;
+.workflow-section-wrap .media > div > header {
+  margin-bottom: 25px;
 }
 
-.workflow-section-wrap .media>div>figure {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 70%;
-    max-width: 180px;
-    margin: auto;
-    background: #fff;
-    border-radius: 50%;
+.workflow-section-wrap .media > div > figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  max-width: 180px;
+  margin: auto;
+  background: #fff;
+  border-radius: 50%;
 
-    position: absolute;
-    left: 50%;
-    bottom: 2rem;
-    transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+  bottom: 2rem;
+  transform: translateX(-50%);
 }
 
 .workflow-section-wrap .media .arrow-wrap {
-    width: 100px;
+  width: 100px;
 }
 
 .workflow-section-wrap .media div .item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    height: 42px;
-    margin: .5rem auto;
-    border-radius: 10px;
-    background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+  height: 42px;
+  margin: 0.5rem auto;
+  border-radius: 10px;
+  background: #fff;
 }
 
 .workflow-section-wrap .media .sending {
-    background: #E9E9E9;
+  background: #e9e9e9;
 }
 
 .workflow-section-wrap .media .bridge {
-    background: #323333;
-    color: #fff;
+  background: #323333;
+  color: #fff;
 }
 
 .workflow-section-wrap .media .bridge p {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .workflow-section-wrap .media .bridge h3 {
-    width: 50%;
-    max-width: 88px;
-    margin: 0 auto 4px;
+  width: 50%;
+  max-width: 88px;
+  margin: 0 auto 4px;
 }
 
 .workflow-section-wrap .media .receive {
-    background: #E9E9E9;
+  background: #e9e9e9;
 }
 
-
 .media .arrow-wrap .arrow {
-    width: 0;
-    height: 2px;
-    background: #323333;
+  width: 0;
+  height: 2px;
+  background: #323333;
 }
 
 .arrow-wrap {
-    position: relative;
-    --step: 72px;
+  position: relative;
+  --step: 72px;
 }
 
+.workflow-section-wrap .media .arrow-wrap figure {
+  width: 100%;
+  max-width: 44px;
+  bottom: 90px;
+}
 
 .arrow1 .arrow:nth-of-type(1):before,
 .arrow1 .arrow:nth-of-type(3):before,
@@ -160,16 +162,16 @@ button {
 .arrow2 .arrow:nth-of-type(1):before,
 .arrow2 .arrow:nth-of-type(3):before,
 .arrow2 .arrow:nth-of-type(5):before {
-    content: '';
-    display: block;
-    width: 7px;
-    height: 2px;
-    background: #000;
+  content: "";
+  display: block;
+  width: 7px;
+  height: 2px;
+  background: #000;
 
-    position: absolute;
-    right: 0;
-    bottom: 3px;
-    transform: rotate(45deg);
+  position: absolute;
+  right: 0;
+  bottom: 3px;
+  transform: rotate(45deg);
 }
 
 .arrow1 .arrow:nth-of-type(2):before,
@@ -178,251 +180,262 @@ button {
 .arrow2 .arrow:nth-of-type(2):before,
 .arrow2 .arrow:nth-of-type(4):before,
 .arrow2 .arrow:nth-of-type(6):before {
-    content: '';
-    display: block;
-    width: 7px;
-    height: 2px;
-    background: #000;
+  content: "";
+  display: block;
+  width: 7px;
+  height: 2px;
+  background: #000;
 
-    position: absolute;
-    left: 0;
-    bottom: 3px;
-    transform: rotate(-45deg);
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+  transform: rotate(-45deg);
 }
 
 .arrow1 .arrow:nth-of-type(1),
 .arrow2 .arrow:nth-of-type(1) {
-    position: absolute;
-    top: 115px;
-    left: 0;
+  position: absolute;
+  top: 115px;
+  left: 0;
 }
 
 .arrow1 .arrow:nth-of-type(2),
 .arrow2 .arrow:nth-of-type(2) {
-    width: auto;
-    position: absolute;
-    top: 125px;
-    left: 100%;
-    right: 0;
+  width: auto;
+  position: absolute;
+  top: 125px;
+  left: 100%;
+  right: 0;
 }
 
 .arrow1 .arrow:nth-of-type(3),
 .arrow2 .arrow:nth-of-type(3) {
-    position: absolute;
-    top: 162px;
-    left: 0;
+  position: absolute;
+  top: 162px;
+  left: 0;
 }
 
 .arrow1 .arrow:nth-of-type(4),
 .arrow2 .arrow:nth-of-type(4) {
-    width: auto;
-    position: absolute;
-    top: 172px;
-    left: 100%;
-    right: 0;
+  width: auto;
+  position: absolute;
+  top: 172px;
+  left: 100%;
+  right: 0;
 }
 
 .arrow1 .arrow:nth-of-type(5),
 .arrow2 .arrow:nth-of-type(5) {
-    position: absolute;
-    top: 270px;
-    left: 0;
+  position: absolute;
+  top: 270px;
+  left: 0;
 }
 
 .arrow1 .arrow:nth-of-type(6),
 .arrow2 .arrow:nth-of-type(6) {
-    width: auto;
-    position: absolute;
-    top: 280px;
-    left: 100%;
-    right: 0;
+  width: auto;
+  position: absolute;
+  top: 280px;
+  left: 100%;
+  right: 0;
 }
-
-
-
-
 
 @keyframes blink {
-    0% {
-        background: #fff;
-        color: #000;
-    }
+  0% {
+    background: #fff;
+    color: #000;
+  }
 
-    33% {
-        background: var(--color-primary);
-        color: #fff;
-    }
+  33% {
+    background: var(--color-primary);
+    color: #fff;
+  }
 
-    66% {
-        background: #fff;
-        color: #000;
-    }
+  66% {
+    background: #fff;
+    color: #000;
+  }
 
-    100% {
-        background: var(--color-primary);
-        color: #fff;
-    }
+  100% {
+    background: var(--color-primary);
+    color: #fff;
+  }
 }
 
-
-
-
 .is-observed .media .sending {
-    animation: fadeup var(--animation-duration) var(--animation-delay-third) linear backwards;
-    position: relative;
+  animation: fadeup var(--animation-duration) var(--animation-delay-third)
+    linear backwards;
+  position: relative;
 }
 
 .is-observed .media .bridge {
-    animation: fadeup var(--animation-duration) var(--animation-delay-fourth) linear backwards;
-    position: relative;
+  animation: fadeup var(--animation-duration) var(--animation-delay-fourth)
+    linear backwards;
+  position: relative;
 }
 
 .is-observed .media .receive {
-    animation: fadeup var(--animation-duration) var(--animation-delay-fifth) linear backwards;
-    position: relative;
+  animation: fadeup var(--animation-duration) var(--animation-delay-fifth)
+    linear backwards;
+  position: relative;
 }
 
 @keyframes test12 {
-    0% {
-        transform: scale(0);
-    }
+  0% {
+    transform: scale(0);
+  }
 
-    100% {
-        transform: scale(1);
-    }
+  100% {
+    transform: scale(1);
+  }
 }
 
-.is-observed .media .item {}
+.is-observed .media .item {
+}
 
 /* // 1열 시작 */
 .is-observed .media .sending .item:nth-of-type(1) {
-    animation: blink var(--animation-duration) 2s linear forwards;
+  animation: blink var(--animation-duration) 2s linear forwards;
 }
-
 
 .is-observed .media .arrow1 .arrow:nth-of-type(1) {
-    transition: width .4s 2.4s linear;
-    width: 100%;
+  transition: width 0.4s 2.4s linear;
+  width: 100%;
 }
-
 
 /* // test12 는 화살표 숨김... 몰라.. */
 .is-observed .media .arrow1 .arrow:nth-of-type(1):before {
-    animation: test12 .1s 2.4s linear backwards;
+  animation: test12 0.1s 2.4s linear backwards;
 }
 
 .is-observed .media .arrow2 .arrow:nth-of-type(1) {
-    transition: width .4s 2.8s linear;
-    width: 100%;
+  transition: width 0.4s 2.8s linear;
+  width: 100%;
 }
 
 .is-observed .media .arrow2 .arrow:nth-of-type(1):before {
-    animation: test12 .1s 2.8s linear backwards;
+  animation: test12 0.1s 2.8s linear backwards;
 }
 
 .is-observed .media .receive .item:nth-of-type(1) {
-    animation: blink var(--animation-duration) 3.2s linear forwards;
+  animation: blink var(--animation-duration) 3.2s linear forwards;
 }
 
 .is-observed .media .arrow2 .arrow:nth-of-type(2) {
-    transition: left .4s 3.6s linear;
-    left: 0;
+  transition: left 0.4s 3.6s linear;
+  left: 0;
 }
 
 .is-observed .media .arrow2 .arrow:nth-of-type(2):before {
-    animation: test12 .1s 3.6s linear backwards;
+  animation: test12 0.1s 3.6s linear backwards;
 }
 
 .is-observed .media .arrow1 .arrow:nth-of-type(2) {
-    transition: left .4s 4s linear;
-    left: 0;
+  transition: left 0.4s 4s linear;
+  left: 0;
 }
 
 .is-observed .media .arrow1 .arrow:nth-of-type(2):before {
-    animation: test12 .1s 4s linear backwards;
+  animation: test12 0.1s 4s linear backwards;
 }
-
-
 
 /* // ! 2열 */
 .is-observed .media .sending .item:nth-of-type(2) {
-    animation: blink var(--animation-duration) 4.4s linear forwards;
+  animation: blink var(--animation-duration) 4.4s linear forwards;
 }
 
 .is-observed .media .arrow1 .arrow:nth-of-type(3) {
-    transition: width .4s 4.8s linear;
-    width: 100%;
+  transition: width 0.4s 4.8s linear;
+  width: 100%;
 }
 
 .is-observed .media .arrow1 .arrow:nth-of-type(3):before {
-    animation: test12 .1s 4.8s linear backwards;
+  animation: test12 0.1s 4.8s linear backwards;
 }
 
 .is-observed .media .arrow2 .arrow:nth-of-type(3) {
-    transition: width .4s 5.2s linear;
-    width: 100%;
+  transition: width 0.4s 5.2s linear;
+  width: 100%;
 }
 
 .is-observed .media .arrow2 .arrow:nth-of-type(3):before {
-    animation: test12 .1s 5.2s linear backwards;
+  animation: test12 0.1s 5.2s linear backwards;
 }
 
-
 .is-observed .media .receive .item:nth-of-type(2) {
-    animation: blink var(--animation-duration) 5.6s linear forwards;
+  animation: blink var(--animation-duration) 5.6s linear forwards;
 }
 
 .is-observed .media .arrow2 .arrow:nth-of-type(4) {
-    transition: left .4s 6s linear;
-    left: 0;
+  transition: left 0.4s 6s linear;
+  left: 0;
 }
 
 .is-observed .media .arrow2 .arrow:nth-of-type(4):before {
-    animation: test12 .1s 6s linear backwards;
+  animation: test12 0.1s 6s linear backwards;
 }
 
 .is-observed .media .arrow1 .arrow:nth-of-type(4) {
-    transition: left .4s 6.4s linear;
-    left: 0;
+  transition: left 0.4s 6.4s linear;
+  left: 0;
 }
 
 .is-observed .media .arrow1 .arrow:nth-of-type(4):before {
-    animation: test12 .1s 6.4s linear backwards;
+  animation: test12 0.1s 6.4s linear backwards;
 }
-
-
 
 /* // 3열 */
 .is-observed .media .sending .item:nth-of-type(3) {
-    animation: blink var(--animation-duration) 6.8s linear forwards;
-
+  animation: blink var(--animation-duration) 6.8s linear forwards;
 }
 
 /* // 4열 */
 .is-observed .media .sending .item:nth-of-type(4) {
-    animation: blink var(--animation-duration) 7.2s linear forwards;
+  animation: blink var(--animation-duration) 7.2s linear forwards;
 }
 
 .is-observed .media .arrow1 .arrow:nth-of-type(5) {
-    transition: width .4s 7.6s linear;
-    width: 100%;
+  transition: width 0.4s 7.6s linear;
+  width: 100%;
 }
 
 .is-observed .media .arrow1 .arrow:nth-of-type(5):before {
-    animation: test12 .1s 7.6s linear backwards;
+  animation: test12 0.1s 7.6s linear backwards;
 }
 
 .is-observed .media .arrow2 .arrow:nth-of-type(5) {
-    transition: width .4s 8s linear;
-    width: 100%;
+  transition: width 0.4s 8s linear;
+  width: 100%;
 }
 
 .is-observed .media .arrow2 .arrow:nth-of-type(5):before {
-    animation: test12 .1s 8s linear backwards;
+  animation: test12 0.1s 8s linear backwards;
 }
 
 .is-observed .media .receive .item:nth-of-type(4) {
-    animation: blink var(--animation-duration) 8.4s linear forwards;
+  animation: blink var(--animation-duration) 8.4s linear forwards;
+}
+
+@keyframes fadeupTemp {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, 1.5rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+
+.is-observed .media .arrow1 figure {
+  animation: fadeupTemp var(--animation-duration) var(--animation-delay-third)
+    linear backwards;
+}
+
+.is-observed .media .arrow2 figure {
+  animation: fadeupTemp var(--animation-duration) var(--animation-delay-fourth)
+    linear backwards;
 }
 
 /* .is-observed .media .arrow2 .arrow:nth-of-type(6) {
@@ -435,58 +448,67 @@ button {
     left: 0;
 } */
 
-
-
-
 @media (max-width: 1000px) {
+  .workflow-section-wrap .media {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
 
-    .workflow-section-wrap .media {
-        margin-left: -1rem;
-        margin-right: -1rem;
-    }
+  .workflow-section-wrap .media > div {
+    min-height: 400px;
+    padding: 30px 0;
+    border-radius: 20px;
+    font-size: 14px;
+    position: relative;
+  }
 
-    .workflow-section-wrap .media>div {
-        min-height: 400px;
-        padding: 30px 0;
-        border-radius: 20px;
-        font-size: 14px;
-        position: relative;
-    }
+  .workflow-section-wrap .media > div > header {
+    margin-bottom: 25px;
+  }
 
-    .workflow-section-wrap .media>div>header {
-        margin-bottom: 25px;
-    }
+  .workflow-section-wrap .media > div {
+    font-size: 14px;
+  }
 
-    .workflow-section-wrap .media>div {
-        font-size: 14px;
-    }
+  .workflow-section-wrap .media > div > figure {
+  }
 
-    .workflow-section-wrap .media>div>figure {}
+  .workflow-section-wrap .media .arrow-wrap {
+    width: 50px;
+    /* // todo % */
+  }
 
-    .workflow-section-wrap .media .arrow-wrap {
-        width: 50px;
-        /* // todo % */
-    }
+  .workflow-section-wrap .media .arrow-wrap figure {
+    width: 44px;
+    height: 44px;
+    max-width: auto;
+    background: #fff;
+    border-radius: 50%;
+    bottom: 100px;
+    z-index: 5;
+  }
 
+  .workflow-section-wrap .media .arrow-wrap figure img {
+    width: 40%;
+  }
 
-    .pill {
-        height: 31px;
-        font-size: 16px;
-        line-height: 21px;
-    }
+  .pill {
+    height: 31px;
+    font-size: 16px;
+    line-height: 21px;
+  }
 
-    .section-head .pill {
-        margin-bottom: 12px;
-    }
+  .section-head .pill {
+    margin-bottom: 12px;
+  }
 
-    .inner {
-        /* // 24px to */
-        padding-left: var(--grid-margin);
-        padding-right: var(--grid-margin);
-    }
+  .inner {
+    /* // 24px to */
+    padding-left: var(--grid-margin);
+    padding-right: var(--grid-margin);
+  }
 
-    .workflow-section-wrap {
-        margin-bottom: 20px;
-    }
-
+  .workflow-section-wrap {
+    margin-bottom: 20px;
+  }
 }

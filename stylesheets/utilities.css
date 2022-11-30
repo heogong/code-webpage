@@ -1,51 +1,48 @@
 .linebreak-desktop {
-    display: block;
+  display: block;
 }
 
 .visible-only-mobile {
-    display: none !important;
+  display: none !important;
 }
 
 .visible-only-desktop {
-    display: flex !important;
+  display: flex !important;
 }
-
 
 .text-subhead {
-    margin: 0;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 38px;
-    letter-spacing: -0.025em;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: -0.025em;
 }
-
 
 @media (max-width: 1000px) {
-    .visible-only-mobile {
-        display: flex !important;
-    }
+  .visible-only-mobile {
+    display: flex !important;
+  }
 
-    .visible-only-desktop {
-        display: none !important;
-    }
+  .visible-only-desktop {
+    display: none !important;
+  }
 
-    .linebreak-desktop {
-        display: inline;
-    }
+  .linebreak-desktop {
+    display: inline;
+  }
 
-    .text-subhead {
-        font-size: 18px;
-        line-height: 26px;
-    }
+  .text-subhead {
+    font-size: 18px;
+    line-height: 26px;
+  }
 }
 
-
 @keyframes marquee {
-    0% {
-        transform: translateX(0%);
-    }
+  0% {
+    transform: translateX(0%);
+  }
 
-    100% {
-        transform: translateX(calc(-100%));
-    }
+  100% {
+    transform: translateX(calc(-100%));
+  }
 }

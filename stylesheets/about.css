@@ -1,155 +1,149 @@
 .about-section-wrap {
-    padding: 71px 0 73px;
-    background: var(--color-primary);
-    color: #fff;
-    position: relative;
+  padding: 71px 0 73px;
+  background: var(--color-primary);
+  color: #fff;
+  position: relative;
 }
 
 .about-section-wrap .inner {
-    max-width: 1360px;
-    margin: 0 auto;
+  max-width: 1360px;
+  margin: 0 auto;
 }
 
 .about-line {
-    display: block;
-    width: 0;
-    height: 3px;
-    background-color: #fff;
-    position: absolute;
-    left: 0;
-    right: 100%;
-    top: 125px;
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  right: 100%;
+  top: 125px;
 }
 
 .about-title {
-    font-family: 'Roboto Slab';
-    font-size: 55px;
-    line-height: 1;
-    position: relative;
+  font-family: "Roboto Slab";
+  font-size: 55px;
+  line-height: 1;
+  position: relative;
 }
 
 .about-content {
-    margin-left: 40%;
-    margin-top: -130px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 28px;
+  margin-left: 40%;
+  margin-top: -130px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .about-section-wrap .brands {
-    display: flex;
-    margin: 0 0 20px 0;
+  display: flex;
+  margin: 0 0 20px 0;
 }
 
 .about-section-wrap .brands span {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 179px;
-    height: 50px;
-    margin: 0 20px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 179px;
+  height: 50px;
+  margin: 0 20px 0 0;
 
-    background: #FFFFFF;
-    border-radius: 8px;
+  background: #ffffff;
+  border-radius: 8px;
 }
 
 .about-section-wrap .brands span img {
-    width: auto;
-    height: 70px;
+  width: auto;
+  height: 70px;
 }
 
 .about-section-wrap .hashtags {
-    margin: 24px 0 0 0;
+  margin: 24px 0 0 0;
 }
 
 .about-section-wrap .hashtags span {
-    display: inline-block;
-    margin-right: 50px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 23px;
-    letter-spacing: -0.025em;
-    color: #7CE7EB;
+  display: inline-block;
+  margin-right: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: -0.025em;
+  color: #7ce7eb;
 }
 
-
 .is-observed .about-line {
-    transition: all var(--animation-duration) ease;
-    width: auto;
-    right: calc(50% + 695px);
+  transition: all var(--animation-duration) ease;
+  width: auto;
+  right: calc(50% + 695px);
 }
 
 .is-observed .about-title {
-    animation: fadeup var(--animation-duration) .4s linear backwards;
+  animation: fadeup var(--animation-duration) 0.4s linear backwards;
 }
 
 .is-observed .about-content {
-    animation: fadeup var(--animation-duration).8s linear backwards;
+  animation: fadeup var(--animation-duration) 0.8s linear backwards;
 }
 
 /* // 페이지 로딩 후 두 개의 섹션이 모두 관찰될 때. 스크롤 중간에서 새로고침 고려 안 함. */
 /* // hero section에서 3개 진행되기 때문에 fourth부터 적용 */
-.is-observed+.is-observed .about-line {
-    transition-delay: var(--animation-delay-fourth);
+.is-observed + .is-observed .about-line {
+  transition-delay: var(--animation-delay-fourth);
 }
 
-.is-observed+.is-observed .about-title {
-    animation-delay: var(--animation-delay-fifth);
+.is-observed + .is-observed .about-title {
+  animation-delay: var(--animation-delay-fifth);
 }
 
-.is-observed+.is-observed .about-content {
-    animation-delay: var(--animation-delay-sixth);
+.is-observed + .is-observed .about-content {
+  animation-delay: var(--animation-delay-sixth);
 }
-
-
-
 
 @media (max-width: 1000px) {
-    .about-section-wrap {
-        padding-top: 28px;
-        padding-bottom: 36px;
-    }
+  .about-section-wrap {
+    padding-top: 28px;
+    padding-bottom: 36px;
+  }
 
+  .about-line {
+    display: none;
+  }
 
-    .about-line {
-        display: none;
-    }
+  .about-title {
+    font-size: 28px;
+    line-height: 37px;
+  }
 
-    .about-title {
-        font-size: 28px;
-        line-height: 37px;
-    }
+  .about-content {
+    margin-left: 0%;
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 20px;
+  }
 
+  .about-section-wrap .brands {
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
 
-    .about-content {
-        margin-left: 0%;
-        margin-top: 12px;
-        font-size: 14px;
-        line-height: 20px;
-    }
+  .about-section-wrap .brands span {
+    width: 32%;
+    height: 30px;
+    margin-right: 0;
+  }
 
-    .about-section-wrap .brands {
-        justify-content: space-between;
-        margin-bottom: 0;
-    }
+  .about-section-wrap .brands span img {
+    height: 30px;
+  }
 
-    .about-section-wrap .brands span {
-        width: 32%;
-        height: 30px;
-        margin-right: 0;
-    }
+  .about-section-wrap .hashtags {
+    margin-bottom: 22px;
+  }
 
-    .about-section-wrap .brands span img {
-        height: 30px;
-    }
-
-    .about-section-wrap .hashtags {
-        margin-bottom: 22px;
-    }
-
-    .about-section-wrap .hashtags span {
-        margin-right: 16px;
-        font-size: 12px;
-        line-height: 17px;
-    }
+  .about-section-wrap .hashtags span {
+    margin-right: 16px;
+    font-size: 12px;
+    line-height: 17px;
+  }
 }
