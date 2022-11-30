@@ -127,6 +127,16 @@ button {
     color: #fff;
 }
 
+.workflow-section-wrap .media .bridge p {
+    margin-top: 50px;
+}
+
+.workflow-section-wrap .media .bridge h3 {
+    width: 50%;
+    max-width: 88px;
+    margin: 0 auto 4px;
+}
+
 .workflow-section-wrap .media .receive {
     background: #E9E9E9;
 }
