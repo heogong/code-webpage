@@ -124,11 +124,26 @@
     margin-top: 10px;
   }
 
-  .alliance-item div {
-    flex-wrap: wrap;
+  .alliance-item {
+    width: 200px;
+    min-height: 10rem;
+    margin: 0.75rem;
+    padding: 1rem;
   }
 
-  .alliance-item div span {
-    margin: 0 5%;
+  .alliance-item .logo {
+    float: none;
+  }
+
+  .alliance-item .name {
+    height: auto;
+    margin: 0.5rem 0;
+    font-size: 14px;
+  }
+
+  .alliance-item .status {
+    font-size: 12px;
+    left: 1rem;
+    bottom: 1rem;
   }
 }

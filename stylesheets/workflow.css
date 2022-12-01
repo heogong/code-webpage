@@ -150,42 +150,6 @@
   transform: rotate(45deg);
 }
 
-.arrow1 .arrow:nth-of-type(1):after,
-.arrow1 .arrow:nth-of-type(3):after,
-.arrow1 .arrow:nth-of-type(5):after,
-.arrow2 .arrow:nth-of-type(1):after,
-.arrow2 .arrow:nth-of-type(3):after,
-.arrow2 .arrow:nth-of-type(5):after {
-  content: "";
-  display: block;
-  width: 7px;
-  height: 2px;
-  background: #000;
-
-  position: absolute;
-  right: 0;
-  top: 3px;
-  transform: rotate(-45deg);
-}
-
-.arrow1 .arrow:nth-of-type(2):before,
-.arrow1 .arrow:nth-of-type(4):before,
-.arrow1 .arrow:nth-of-type(6):before,
-.arrow2 .arrow:nth-of-type(2):before,
-.arrow2 .arrow:nth-of-type(4):before,
-.arrow2 .arrow:nth-of-type(6):before {
-  content: "";
-  display: block;
-  width: 7px;
-  height: 2px;
-  background: #000;
-
-  position: absolute;
-  left: 0;
-  bottom: 3px;
-  transform: rotate(-45deg);
-}
-
 .arrow1 .arrow:nth-of-type(2):after,
 .arrow1 .arrow:nth-of-type(4):after,
 .arrow1 .arrow:nth-of-type(6):after,
@@ -449,6 +413,10 @@
   }
 
   .flowchart .column {
+    font-size: 12px;
+  }
+
+  .flowchart .column h3 {
     font-size: 14px;
   }
 
@@ -472,6 +440,14 @@
   }
 
   .flowchart .column.bridge p {
-    font-size: 12px;
+    font-size: 11px;
+  }
+
+  .flowchart .column.bridge small {
+    display: block;
+    margin: 0.25rem 0 0 0;
+    font-size: 10px;
+    line-height: 1.5;
+    word-break: break-word;
   }
 }
