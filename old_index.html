@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+  <title>CODE - COnnect Digital Exchanges</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="keywords"
+    content="CODE, 트래블룰, 코인원, Coinone, 빗썸, Bithumb, 코빗, Korbit, 가상자산, Crypto, Cryptocurrency, 코인, 블록체인, Blockchain">
+  <meta name="description" content="COnnect Digital Exchanges">
+
+  <!-- Open Graph protocol -->
+  <meta property="og:title" content="CODE - COnnect Digital Exchanges" />
+  <meta property="og:description" content="글로벌 가상자산 사업자의 표준이 되다. CODE, 블록체인 기반의 트래블룰 솔루션" />
+  <meta property="og:image" content="http://codevasp.com/public/images/og_image.png" />
+  <meta property="og:url" content="http://codevasp.com" />
+  <meta property="og:site_name" content="CODE - COnnect Digital Exchanges" />
+  <meta property="og:type" content="website" />
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="public/images/icon/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="public/images/icon/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" sizes="57x57" href="public/images/icon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="public/images/icon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="public/images/icon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="public/images/icon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="public/images/icon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="public/images/icon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="public/images/icon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="public/images/icon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="public/images/icon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="public/images/icon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="public/images/icon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="public/images/icon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="public/images/icon/favicon-16x16.png">
+  <link rel="manifest" href="public/images/icon/manifest.json">
+  <meta name="msapplication-TileColor" content="#1b1b1b">
+  <meta name="msapplication-TileImage" content="public/images/icon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#1b1b1b">
+
+  <!-- font -->
+  <link rel="stylesheet" href="https://use.typekit.net/mss7pdt.css">
+
+  <!-- script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript">
+    // Smooth Scrolling
+    $(function () {
+      $('a[href*=#]:not([href=#])').click(function () {
+        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+
+    // document.addEventListener('DOMContentLoaded', () => {
+    //   const mobileGNBMenu = document.querySelector('#mobile_gnb_menu')
+    //   const mobileGnbTrigger = document.querySelector('#mobile_gnb_btn')
+    //   const mobileGNBCloser = document.querySelector('.fn_mobile-gnb_menu_close')
+
+    //   mobileGnbTrigger.addEventListener('click', openMobileMenu)
+    //   mobileGNBCloser.addEventListener('click', closeMobileMenu)
+
+    //   function openMobileMenu() {
+    //     const isOpened = mobileGnbTrigger.classList.contains('active')
+
+    //     mobileGnbTrigger.classList.toggle('active', !isOpened)
+    //     mobileGNBMenu.classList.toggle('hidden', isOpened)
+    //   }
+
+    //   function closeMobileMenu() {
+    //     mobileGnbTrigger.classList.remove('active')
+    //     mobileGNBMenu.classList.add('hidden')
+    //   }
+    // })
+
+    // mobile menu
+    $(function () {
+      $("#mobile_gnb_btn").click(function () {
+        if ($(this).hasClass("active")) {
+          ($(this).removeClass("active"));
+          ($("#mobile_gnb_menu").addClass("hidden"));
+        } else {
+          ($(this).addClass("active"));
+          ($("#mobile_gnb_menu").removeClass("hidden"));
+        }
+      });
+      $(".fn_mobile_gnb_menu_close").click(function () {
+        ($("#mobile_gnb_btn").removeClass("active"));
+        ($("#mobile_gnb_menu").addClass("hidden"));
+      });
+    });
+  </script>
+
+  <!-- FlaxSlider (Index) -->
+  <link rel="stylesheet" type="text/css" href="public/vendors/css/flexslider.css">
+  <script type="text/javascript" src="public/vendors/js/jquery.flexslider-min.js"></script>
+  <script type="text/javascript" charset="utf-8">
+    $(window).load(function () {
+      $('.flexslider').flexslider({
+        slideshow: false
+      });
+    });
+  </script>
+
+  <!-- style -->
+  <link href="public/stylesheets/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <span id="skip_top"></span>
+
+  <div class="nav">
+    <div class="nav_wrapper">
+      <div class="pull-left">
+        <a class="nav_logo fn_mobile_gnb_menu_close" href="#skip_top"><span class="logo logo_white">CODE</span></a>
+      </div>
+      <div class="pull-right mobile_gnb_menu_btn visible-xs"><a id="mobile_gnb_btn">MENU</a></div>
+      <div class="pull-right gnb_menu hidden-xs">
+        <a href="#code">What is CODE?</a>
+        <!-- <a href="#demo">Demo</a> -->
+        <a href="#contact">Contact Us</a>
+        <a href="https://docs.codevasp.com" target="_blank" class="fn_mobile_gnb_menu_close">Technical Document</a>
+      </div>
+      <div class="cb"></div>
+    </div>
+  </div> <!-- end of .nav -->
+
+  <div id="mobile_gnb_menu" class="mobile_gnb_menu hidden hidden-sm hidden-md hidden-lg hidden-xl">
+    <ul class="menu_list">
+      <li><a href="#code" class="fn_mobile_gnb_menu_close">What is CODE?</a></li>
+      <li><a href="#demo" class="fn_mobile_gnb_menu_close">Demo</a></li>
+      <li><a href="#contact" class="fn_mobile_gnb_menu_close">Contact Us</a></li>
+      <li><a href="https://docs.codevasp.com" target="_blank" class="fn_mobile_gnb_menu_close">Technical Document</a>
+      </li>
+    </ul>
+    <div class="mobile_gnb_menu_dimmed_bg fn_mobile_gnb_menu_close"></div>
+  </div>
+
+  <div class="content_wrapper">
+    <div class="cover">
+      <div class="cover_logo_wrapper">
+        <div class="cover_logo"></div>
+      </div>
+      <div class="cover_headline">
+        <h2>COnnect Digital Exchanges</h2>
+        <h1>CODE, 글로벌 트래블룰 <span class="mobile_line_break"><br></span>표준을 제시하다</h1>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        <section class="code_section">
+          <div id="code" class="nav_link_position"></div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-6">
+              <h1 class="heading">
+                트래블룰 합작법인<br>
+                CODE
+              </h1>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+              <p>
+                CODE는 국내 대표 가상자산 거래소 3사(빗썸, 코인원, 코빗)가 2022년 예정된 트래블룰 시행에 앞서 설립한 국내 첫 VASP 컨소시엄입니다.
+              </p>
+              <p>
+                2021년 8월 출범 이후, 금융당국과 국제자금세탁방지기구(FATF)의 기준에 부합하는 솔루션 개발을 통해 글로벌 트래블룰 표준화 방안을 선도적으로 제시하고자 노력해왔습니다.
+              </p>
+              <p>
+                2021년 12월, CODE 기술력으로 완성한 블록체인 기반의 선진적, 혁신적 트래블룰 솔루션 서비스를 시작합니다.
+              </p>
+            </div>
+          </div>
+
+          <style>
+            .code-section .row {
+              margin-bottom: 40px;
+            }
+          </style>
+
+          <span class="hidden-xs"><br><br><br></span>
+          <h3 class="center">국내 VASP 파트너 및 연구개발 파트너</h3>
+          <div class="row">
+            <div class="col-xs-12 col-sm-4">
+              <img class="partner_logo" src="public/images/partner/partner_logo_bithumb.png" alt="Bithumb">
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="partner_logo" src="public/images/partner/partner_logo_coinone.png" alt="Coinone">
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img class="partner_logo" src="public/images/partner/partner_logo_korbit.png" alt="Korbit">
+            </div>
+          </div>
+          <hr class="narrow_bar_gray">
+          <div class="row">
+            <div class="col-xs-12">
+              <img class="partner_logo" src="public/images/partner/partner_logo_postech.png" alt="Postech">
+            </div>
+          </div>
+        </section>
+
+        <hr class="bold_bar_black">
+
+        <section class="r3corda_section">
+          <h1 class="heading">
+            블록체인 기반의<span class="hidden-sm hidden-md hidden-lg"><br></span> 한국형 트래블룰 솔루션
+          </h1>
+          <div class="rounded_gray_box">
+            <div class="row">
+              <div class="col-xs-12 col-sm-8">
+                <img class="r3corda_logo" src="public/images/r3corda/r3corda_logo.png" alt="R3 Corda">
+                <ul class="r3corda_list">
+                  <li>80여개 글로벌 금융사가 참가하는 R3 블록체인 컨소시엄</li>
+                  <li>금융 서비스에 최적화된 분산원장기술 서비스 제공</li>
+                  <li>상호 허가된 기관만 접속 가능한 Permissioned Blockchain</li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                <img class="r3corda_structure" src="public/images/r3corda/r3corda_structure.png">
+                <div class="caption center">Corda 노드간 데이터베이스 공유 구조</div>
+              </div>
+            </div>
+          </div>
+          <ul class="feature_list">
+            <li>
+              <span class="feature_tag">효율성</span>
+              <p>중개자가 없는 블록체인 기반 시스템: <b>수수료 등 비용 절감 및 빠른 데이터 처리</b></p>
+            </li>
+            <li>
+              <span class="feature_tag">안전성</span>
+              <p>각 노드는 직접 연관된 데이터만 보유: <b>개인정보의 안전한 교환 및 저장</b></p>
+            </li>
+            <li>
+              <span class="feature_tag">확장성</span>
+              <p><b>확장성 위주의 시스템 디자인</b>: 네트워크 신규 가입 및 타 네트워크 연계 용이</p>
+            </li>
+            <li>
+              <span class="feature_tag">편의성</span>
+              <p>고객 경험을 최우선으로 두는 <b>Address Search System 도입</b></p>
+            </li>
+          </ul>
+        </section>
+
+        <hr class="bold_bar_black">
+
+        <section class="solution_section">
+          <h1 class="heading">CODE Solution</h1>
+          <h3>효율적이고 안전한 프라이빗 블록체인 구조</h3>
+          <div class="rounded_gray_box code_structure_box">
+            <img class="code_structure hidden-sm hidden-md hidden-lg"
+              src="public/images/structure/code_structure_mobile.png">
+            <img class="code_structure hidden-xs" src="public/images/structure/code_structure.png">
+          </div>
+        </section>
+
+        <hr class="bold_bar_black">
+
+        <section class="demo_section">
+          <div id="demo" class="nav_link_position"></div>
+          <h1 class="heading">DEMO</h1>
+          <!--slides -->
+          <div id="demo_flexslider" class="flexslider photo">
+            <ul class="slides">
+              <li>
+                <img src="public/images/demo/demo_withdraw.gif" alt="거래소 출금 화면">
+              </li>
+              <li>
+                <img src="public/images/demo/demo_admin.png" alt="거래소 관리자 화면">
+              </li>
+            </ul>
+          </div>
+          <p class="flexslider_caption">DEMO는 예시이며, 실제 거래소 적용시 일부 변경이 있을 수 있습니다.</p>
+        </section>
+
+        <hr class="bold_bar_black">
+
+        <section class="contact_section">
+          <div id="contact" class="nav_link_position"></div>
+          <h2>CODE에 대한 문의는 아래 이메일로 연락주세요.</h2>
+          <h3>가입 문의: <a class="code_email" href="mailto:partnership@codevasp.com">partnership@codevasp.com</a></h3>
+          <h3>기술지원 문의: <a class="code_email" href="mailto:support@codevasp.com">support@codevasp.com</a></h3>
+        </section>
+      </div> <!-- end of .content -->
+    </div> <!-- end of .container -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer_logo logo">CODE</div>
+        <div class="footer_tagline">CONNECT DIGITAL EXCHANGES</div>
+        <p class="copyright">&copy; CODE Inc. Copyright and all rights reserved.</p>
+      </div>
+    </footer>
+  </div> <!-- end of .content_wrapper -->
+</body>
+
+</html>
