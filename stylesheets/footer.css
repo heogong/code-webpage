@@ -46,12 +46,13 @@
   margin: 0.25rem 0;
 }
 
-.contact-item b {
+.contact-item a {
   margin: 0 0 0 0.25rem;
+  color: inherit;
 }
 
-.contact-item span {
-  margin-left: 0.25rem;
+.contact-item a:hover {
+  text-decoration: underline;
 }
 
 .footer-bottom {
