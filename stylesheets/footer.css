@@ -36,10 +36,6 @@
   letter-spacing: -0.025em;
 }
 
-.contact-list {
-  /* display: flex; */
-}
-
 .contact-item {
   display: flex;
   align-items: center;
@@ -49,9 +45,6 @@
 .contact-item a {
   margin: 0 0 0 0.25rem;
   color: inherit;
-}
-
-.contact-item a:hover {
   text-decoration: underline;
 }
 
