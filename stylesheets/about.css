@@ -42,20 +42,9 @@
 }
 
 .about-container .brands span {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 179px;
   height: 50px;
   margin: 0 20px 0 0;
-
-  background: #ffffff;
-  border-radius: 8px;
-}
-
-.about-container .brands span img {
-  width: auto;
-  height: 70px;
 }
 
 .about-container .hashtags {
@@ -131,10 +120,6 @@
     width: 32%;
     height: 30px;
     margin-right: 0;
-  }
-
-  .about-container .brands span img {
-    height: 30px;
   }
 
   .about-container .hashtags {
