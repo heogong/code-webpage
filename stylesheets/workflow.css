@@ -79,6 +79,8 @@
   margin: 0.5rem auto;
   border-radius: 10px;
   background: #fff;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .flowchart .column.sending {
@@ -203,7 +205,7 @@
 .arrow1 .arrow:nth-of-type(5),
 .arrow2 .arrow:nth-of-type(5) {
   position: absolute;
-  top: 270px;
+  top: 265px;
   left: 0;
 }
 
@@ -211,7 +213,7 @@
 .arrow2 .arrow:nth-of-type(6) {
   width: auto;
   position: absolute;
-  top: 280px;
+  top: 275px;
   left: 100%;
   right: 0;
 }
@@ -388,6 +390,25 @@
 
 .is-observed .flowchart .column.receive .item:nth-of-type(4) {
   animation: blink var(--animation-duration) 8.4s linear forwards;
+}
+
+.is-observed .flowchart .arrow2 .arrow:nth-of-type(6) {
+  transition: left 0.4s 8.8s linear;
+  left: 0;
+}
+
+/* // todo 박스 뒤에 있기 때문에 delay는 적정값만 주면 됨. */
+.is-observed .flowchart .arrow2 .arrow:nth-of-type(6):after {
+  animation: test12 0.1s 8.8s linear backwards;
+}
+
+.is-observed .flowchart .arrow1 .arrow:nth-of-type(6):after {
+  animation: test12 0.1s 7.6s linear backwards;
+}
+
+.is-observed .flowchart .arrow1 .arrow:nth-of-type(6) {
+  transition: left 0.4s 9.2s linear;
+  left: 0;
 }
 
 @media (max-width: 1000px) {

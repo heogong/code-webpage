@@ -55,12 +55,19 @@
   color: #7a7a7a;
 }
 
+.pill,
+.text-subhead {
+  opacity: 0;
+}
+
 .is-observed .pill {
-  animation: fadeup var(--animation-duration) 0.4s linear backwards;
+  animation: fadeup var(--animation-duration) var(--animation-delay-first)
+    linear forwards;
 }
 
 .is-observed .text-subhead {
-  animation: fadeup var(--animation-duration) 0.6s linear backwards;
+  animation: fadeup var(--animation-duration) var(--animation-delay-second)
+    linear forwards;
 }
 
 .is-observed .feature-item:nth-of-type(1) {
