@@ -137,7 +137,7 @@ const alliances = [
     koreanName: "웁살라시큐리티",
     englishName: "Uppsala Security",
     membership: "Accociate Member",
-    imgSrc: "Uppsalasecurity.png",
+    imgSrc: "uppsalasecurity.png",
   },
   {
     id: 21,
