@@ -32,7 +32,7 @@ const alliances = [
     koreanName: "한빗코",
     englishName: "Hanbitco",
     membership: "Travel Rule Memeber",
-    imgSrc: "hanbitco.jpeg",
+    imgSrc: "hanbitco.webp",
   },
   {
     id: 6,
@@ -152,6 +152,7 @@ const alliances = [
     englishName: "Cryptotax",
     membership: "Accociate Memeber",
     imgSrc: "cryptotax.png",
+    padding: 8,
   },
   {
     id: 23,
