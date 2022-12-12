@@ -23,7 +23,7 @@
   -webkit-box-pack: center;
   justify-content: center;
   flex-shrink: 0;
-  animation: 20s linear 0s infinite normal none running marquee;
+  animation: 34s linear 1.2s infinite normal none running marquee;
 }
 
 .alliance-list + .alliance-list {
@@ -84,7 +84,7 @@
 
 .alliance-item .status {
   font-weight: 600;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 23px;
   letter-spacing: -0.025em;
 
@@ -125,25 +125,43 @@
   }
 
   .alliance-item {
-    width: 200px;
+    width: 190px;
     min-height: 10rem;
     margin: 0.75rem;
     padding: 1rem;
+
+    /* width: 100px;
+    height: 120px; */
+    /* padding: 7px 10px 9px; */
   }
 
   .alliance-item .logo {
     float: none;
+    /* 
+    border: 0;
+    width: 100%;
+
+    overflow: visible; */
   }
 
   .alliance-item .name {
     height: auto;
     margin: 0.5rem 0;
     font-size: 14px;
+
+    /* font-size: 10px;
+    line-height: 14px; */
   }
 
   .alliance-item .status {
-    font-size: 12px;
-    left: 1rem;
-    bottom: 1rem;
+    display: block;
+    margin: 4px 0 0 0;
+    /* font-size: 8px; */
+    line-height: 1.4;
+    letter-spacing: -0.025em;
+
+    position: relative;
+    left: auto;
+    bottom: auto;
   }
 }
