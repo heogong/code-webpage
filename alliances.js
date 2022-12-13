@@ -118,13 +118,13 @@ const alliances = [
     membership: "Travel Rule Memeber (On-boarding)",
     imgSrc: "gdac.svg",
   },
-  {
-    id: 18,
-    koreanName: "코인플러그",
-    englishName: "Coinplug",
-    membership: "Travel Rule Memeber",
-    imgSrc: "coinplug.png",
-  },
+  // {
+  //   id: 18,
+  //   koreanName: "코인플러그",
+  //   englishName: "Coinplug",
+  //   membership: "Travel Rule Memeber",
+  //   imgSrc: "coinplug.png",
+  // },
   {
     id: 19,
     koreanName: "오아시스",
@@ -193,7 +193,7 @@ const alliances = [
     id: 28,
     koreanName: "베리파이바스프",
     englishName: "VerifyVASP",
-    membership: "Associate Memeber",
+    membership: "Travel Rule Member",
     imgSrc: "verifyvasp.png",
   },
 ];
