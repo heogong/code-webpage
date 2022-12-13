@@ -118,13 +118,20 @@ const alliances = [
     membership: "Travel Rule Member (On-boarding)",
     imgSrc: "gdac.svg",
   },
-  // {
-  //   id: 18,
-  //   koreanName: "코인플러그",
-  //   englishName: "Coinplug",
-  //   membership: "Travel Rule Member",
-  //   imgSrc: "coinplug.png",
-  // },
+//   {
+//     id: 18,
+//     koreanName: "코어닥스",
+//     englishName: "COREDAX",
+//     membership: "Travel Rule Member (On-boarding)",
+//     imgSrc: "coinplug.png",
+//   },
+//   {
+//     id: 19,
+//     koreanName: "플라이빗",
+//     englishName: "Flybit",
+//     membership: "Travel Rule Member (On-boarding)",
+//     imgSrc: "coinplug.png",
+//   },
   {
     id: 28,
     koreanName: "베리파이바스프",
