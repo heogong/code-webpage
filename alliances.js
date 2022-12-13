@@ -73,7 +73,7 @@ const alliances = [
     id: 11,
     koreanName: "한국디지털에셋",
     englishName: "KODA",
-    membership: "Travel Rule Memeber",
+    membership: "Travel Rule Member (On-boarding)",
     imgSrc: "koda.png",
   },
   {
