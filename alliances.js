@@ -25,7 +25,7 @@ const alliances = [
     koreanName: "큐비트",
     englishName: "QBIT",
     membership: "Travel Rule Memeber",
-    imgSrc: "qbit.jpg",
+    imgSrc: "qbit.png",
   },
   {
     id: 5,
