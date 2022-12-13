@@ -136,7 +136,7 @@ const alliances = [
     id: 19,
     koreanName: "오아시스",
     englishName: "Oasis",
-    membership: "Travel Rule Member",
+    membership: "Travel Rule Member (On-boarding)",
     imgSrc: "oasis.png",
   },
   {
