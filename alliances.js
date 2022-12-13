@@ -11,7 +11,7 @@ const alliances = [
     koreanName: "코인원",
     englishName: "Coinone",
     membership: "Travel Rule Member",
-    imgSrc: "coinone.png",
+    imgSrc: "coinone.svg",
   },
   {
     id: 3,
@@ -125,6 +125,13 @@ const alliances = [
   //   membership: "Travel Rule Memeber",
   //   imgSrc: "coinplug.png",
   // },
+  {
+    id: 28,
+    koreanName: "베리파이바스프",
+    englishName: "VerifyVASP",
+    membership: "Travel Rule Member",
+    imgSrc: "verifyvasp.png",
+  },
   {
     id: 19,
     koreanName: "오아시스",

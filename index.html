@@ -235,6 +235,7 @@
               const half = Math.ceil(alliances.length / 2);    
               const firstHalf = alliances.splice(0, half)
               const secondHalf = alliances.splice(-half)
+              // <figure class="logo" style="padding: ${alliance.padding || 0}px">
 
               // <img src="/images/alliances/${alliance.englishName.replace(" ", "-").toLowerCase()}${imageExtention}" alt="">
               firstHalf.forEach(alliance => {
@@ -242,7 +243,7 @@
                 const item = 
                 `
                 <div class="alliance-item">
-                  <figure class="logo" style="padding: ${alliance.padding || 0}px">
+                  <figure class="logo">
                     <img src="/images/alliances/${alliance.imgSrc}" alt="">
                   </figure><b class="name">${alliance.koreanName}(${alliance.englishName})</b>
                   <small class="location">South Korea</small>
@@ -257,7 +258,7 @@
                 const item = 
                 `
                 <div class="alliance-item">
-                  <figure class="logo" style="padding: ${alliance.padding || 0}px">
+                  <figure class="logo">
                     <img src="/images/alliances/${alliance.imgSrc}" alt="">
                   </figure><b class="name">${alliance.koreanName}(${alliance.englishName})</b>
                   <small class="location">South Korea</small>
